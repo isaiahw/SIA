@@ -1,0 +1,19 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\newtonsoft.json.9.0.1\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="424e6aa8-ba94-c678-e707-af9fe9838e1a" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xam.plugins.vibrate.2.0.0\lib\win8\plugin.vibrate.abstractions.dll" HashGuid="8731915d-b6d5-1857-5a67-ee7dfccb623f" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xam.plugins.vibrate.2.0.0\lib\win8\plugin.vibrate.dll" HashGuid="98fd60ad-8459-9ae0-b4c5-d4f366923198" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\sia\sia\bin\release\sia.dll" HashGuid="d0ef496c-f0d9-1663-44c6-f6aefae7c435" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\toasts.forms.plugin.2.0.4\lib\portable-netcore451+wpa81\toasts.forms.plugin.abstractions.dll" HashGuid="b24fdb23-8f58-dcb0-bb9d-c154eb342493" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\toasts.forms.plugin.2.0.4\lib\portable-netcore451+wpa81\toasts.forms.plugin.winrt.dll" HashGuid="c13cc5df-2ab4-1551-c303-528a98b884a7" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="57732495-6836-491a-fcfc-a4531cfdd6bc" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\zxing.net.mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\zxing.net.mobile.core.dll" HashGuid="38134cec-c0fe-d6eb-8165-8800b21be862" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\zxing.net.mobile.forms.2.1.13\lib\portable-net45+netcore45+wp8+uap10.0+monoandroid403+monotouch10+xamarin.ios10\zxing.net.mobile.forms.dll" HashGuid="3386278c-05cc-25f4-d642-cba6289af91b" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\zxing.net.mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\zxing.portable.dll" HashGuid="b32fdbab-943c-8e7e-9166-8c1c1fde910f" />
+    <ReferenceAssembly PathName="d:\vs projects\sia\packages\zxing.net.mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\zxingnetmobile.dll" HashGuid="403fe390-b491-4e51-9a7d-0f329a385624" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

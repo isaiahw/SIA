@@ -1,0 +1,2 @@
+D:\VS Projects\SIA\SIA\SIA.Windows\SIA.Windows.csproj;neutral
+D:\VS Projects\SIA\SIA\SIA\SIA.csproj;neutral

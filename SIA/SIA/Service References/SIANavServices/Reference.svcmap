@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df089100-9db6-4b82-a63f-f358fd5e3b18" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://misserver11:7047/DynamicsNAV/WS/SANWA%20INTEC/Services" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Services.disco" MetadataType="Disco" ID="fe9f1b0e-697f-4211-a056-318b45ffcd9f" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/Services" />
+    <MetadataFile FileName="FGLabel.wsdl" MetadataType="Wsdl" ID="5fb4025d-7e9b-47a2-8aa4-9e1ab52f4580" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/Page/FGLabel" />
+    <MetadataFile FileName="ItemLedgerEntries.wsdl" MetadataType="Wsdl" ID="df019c35-e69b-455d-af0f-80ed0729532f" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/Page/ItemLedgerEntries" />
+    <MetadataFile FileName="Customer.wsdl" MetadataType="Wsdl" ID="7b9436cd-48e5-48ef-a8b8-462d2905c020" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/Page/Customer" />
+    <MetadataFile FileName="SystemService.wsdl" MetadataType="Wsdl" ID="fb78bd65-7ab7-4791-bae9-a8716d107dd6" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/SystemService" />
+    <MetadataFile FileName="Item.wsdl" MetadataType="Wsdl" ID="ac178727-1ee3-4c6c-8b4a-f5cc7f940557" SourceId="1" SourceUrl="http://misserver11:7047/DynamicsNAV/WS/SANWA INTEC/Page/Item" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

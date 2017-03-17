@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SIA82-SIA1604</Machine>
+    <WindowsUser>isaiah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>85930d70-750c-41a6-9b95-03faaed4159c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=joaqu</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\VS Projects\SIA\SIA\SIA.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\SIA.Windows.exe">
+      <PackagePath>SIA.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xam.Plugins.Vibrate.2.0.0\lib\win8\Plugin.Vibrate.Abstractions.dll">
+      <PackagePath>Plugin.Vibrate.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xam.Plugins.Vibrate.2.0.0\lib\win8\Plugin.Vibrate.dll">
+      <PackagePath>Plugin.Vibrate.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
+      <PackagePath>SIA.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Toasts.Forms.Plugin.2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.Abstractions.dll">
+      <PackagePath>Toasts.Forms.Plugin.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Toasts.Forms.Plugin.2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.WinRT.dll">
+      <PackagePath>Toasts.Forms.Plugin.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\ZXing.Net.Mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\ZXing.Net.Mobile.Core.dll">
+      <PackagePath>ZXing.Net.Mobile.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\ZXing.Net.Mobile.Forms.2.1.13\lib\portable-net45+netcore45+wp8+UAP10.0+MonoAndroid403+MonoTouch10+Xamarin.iOS10\ZXing.Net.Mobile.Forms.dll">
+      <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\ZXing.Net.Mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\zxing.portable.dll">
+      <PackagePath>zxing.portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\ZXing.Net.Mobile.2.1.13\lib\portable-net45+netcore45+wpa81+wp8\ZXingNetMobile.dll">
+      <PackagePath>ZXingNetMobile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Icons\error.png">
+      <PackagePath>Icons\error.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Icons\info.png">
+      <PackagePath>Icons\info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Icons\success.png">
+      <PackagePath>Icons\success.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\Icons\warning.png">
+      <PackagePath>Icons\warning.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\SIA.Windows.xr.xml">
+      <PackagePath>SIA.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\FrameStyle.xbf">
+      <PackagePath>FrameStyle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
