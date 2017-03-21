@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>BB6EEA945044F0F522568B092A1E68DD7F57F3EEA19F34A15D1DEF55A7B8619D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9B69455EBB139FC69B2555D8771725CC413E3F1172A3FDF349CF8ADE93122A4E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3a535215-288c-4f5d-b363-a3a8d295c1a7_1.0.0.0_x86__6cqg7d4wtm6f8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3a535215-288c-4f5d-b363-a3a8d295c1a7_6cqg7d4wtm6f8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3a535215-288c-4f5d-b363-a3a8d295c1a7</RegisteredPackageID>
@@ -28,17 +28,25 @@
     <AppXManifest Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-08-31T09:23:17.318</Modified>
+      <Modified>2017-03-21T01:27:17.927</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
       <PackagePath>entrypoint\SIA.UWP.exe</PackagePath>
-      <Modified>2016-08-31T09:23:11.889</Modified>
+      <Modified>2017-03-21T01:27:11.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
       <Modified>2016-06-11T15:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Identity.Client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.Platform.dll">
+      <PackagePath>Microsoft.Identity.Client.Platform.dll</PackagePath>
+      <Modified>2016-04-14T14:28:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Identity.Client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2016-04-14T14:28:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Net.Http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -536,45 +544,57 @@
       <PackagePath>Plugin.Vibrate.dll</PackagePath>
       <Modified>2015-12-01T06:26:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.45\lib\UAP10\ZXing.Net.Mobile.Core.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\ZXing.Net.Mobile.Core.dll">
       <PackagePath>ZXing.Net.Mobile.Core.dll</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.45\lib\UAP10\ZXingNetMobile.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\ZXingNetMobile.dll">
       <PackagePath>ZXingNetMobile.dll</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.45\lib\UAP10\zxing.portable.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\zxing.portable.dll">
       <PackagePath>zxing.portable.dll</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile.Forms\2.1.45\lib\UAP10\ZXing.Net.Mobile.Forms.WindowsUniversal.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile.Forms\2.1.47\lib\UAP10\ZXing.Net.Mobile.Forms.WindowsUniversal.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.WindowsUniversal.dll</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile.Forms\2.1.45\lib\UAP10\ZXing.Net.Mobile.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile.Forms\2.1.47\lib\UAP10\ZXing.Net.Mobile.Forms.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
       <PackagePath>SIA.dll</PackagePath>
-      <Modified>2016-08-31T09:23:08.126</Modified>
+      <Modified>2017-03-21T01:24:30.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.Interface.dll">
+      <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
+      <Modified>2017-02-12T05:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.dll">
+      <PackagePath>Acr.UserDialogs.dll</PackagePath>
+      <Modified>2017-02-12T05:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\Splat.dll">
+      <PackagePath>Splat.dll</PackagePath>
+      <Modified>2015-03-21T13:07:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -620,80 +640,81 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-08-18T07:35:04.202</Modified>
+      <Modified>2017-03-08T02:34:49.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
-      <Modified>2016-08-02T07:13:24.000</Modified>
+      <Modified>2017-02-23T09:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.45\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
       <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
-      <Modified>2016-08-22T11:53:40.000</Modified>
+      <Modified>2016-08-24T11:02:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-08-31T09:23:15.901</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-21T01:27:14.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\SIA.UWP.exe">
       <PackagePath>SIA.UWP.exe</PackagePath>
-      <Modified>2016-08-31T09:23:17.311</Modified>
+      <Modified>2017-03-21T01:27:17.924</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
-      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23819.0</Version>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.24920.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24920.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
-      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23819.0</Version>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.24920.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24920.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
-      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23819.0</Version>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.24920.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24920.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24210.0</Version>
+      <Version>14.0.25017.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25017.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24210.0</Version>
+      <Version>14.0.25017.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25017.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24210.0</Version>
+      <Version>14.0.25017.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25017.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

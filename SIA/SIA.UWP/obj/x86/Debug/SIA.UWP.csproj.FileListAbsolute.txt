@@ -129,8 +129,8 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Xml.XmlDocument.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Xml.XmlSerializer.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.Abstractions.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.Abstractions.pdb
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.UWP.dll
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.UWP.pdb
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.WinRT.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Toasts.Forms.Plugin.WinRT.pdb
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.pdb
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Plugin.Connectivity.dll
@@ -152,7 +152,11 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\zxing.portable.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Acr.UserDialogs.Interface.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Acr.UserDialogs.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Splat.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.pdb
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Acr.UserDialogs.Interface.pdb
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.csprojResolveAssemblyReference.cache
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.i.cs
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.cs
