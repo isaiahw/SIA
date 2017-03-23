@@ -5,6 +5,7 @@
       <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.WindowsPage">
+      <RootProperty Name="NavigationCacheMode" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">

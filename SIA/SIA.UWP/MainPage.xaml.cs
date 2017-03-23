@@ -26,6 +26,7 @@ namespace SIA.UWP
         public MainPage()
         {
             this.InitializeComponent();
+            ZXing.Net.Mobile.Forms.WindowsUniversal.ZXingScannerViewRenderer.Init();
             LoadApplication(new SIA.App());
         }
     }
