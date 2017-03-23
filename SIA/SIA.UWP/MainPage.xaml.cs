@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Xamarin.Forms;
+using Plugin.Toasts.UWP;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -26,6 +28,10 @@ namespace SIA.UWP
         public MainPage()
         {
             this.InitializeComponent();
+
+            DependencyService.Register<ToastNotification>();
+
+            ToastNotification.Init();
             ZXing.Net.Mobile.Forms.WindowsUniversal.ZXingScannerViewRenderer.Init();
             LoadApplication(new SIA.App());
         }

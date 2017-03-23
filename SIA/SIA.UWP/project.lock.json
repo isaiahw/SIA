@@ -2356,15 +2356,15 @@
           }
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -4896,15 +4896,15 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -7475,15 +7475,15 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -10024,15 +10024,15 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -12612,15 +12612,15 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -15161,15 +15161,15 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -17749,15 +17749,15 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/2.0.4": {
+      "Toasts.Forms.Plugin/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         },
         "runtime": {
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll": {}
+          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
         }
       },
       "Xam.Plugin.Connectivity/2.3.0": {
@@ -26771,37 +26771,26 @@
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
     },
-    "Toasts.Forms.Plugin/2.0.4": {
-      "sha512": "fI0Ue27SGRYpN4l34rpapdmVmG5zyPxQRaVZMcvNYUWInhLt/mb47KOBtql7rUgUGu+xI1H7r/qr06J334hoiQ==",
+    "Toasts.Forms.Plugin/3.1.4": {
+      "sha512": "S3X8hQYpWuvpqfC7gWeijybP5IDJGKb1P+su31cZRIzA6pBZthBjAwEGo34SgoSKeMUAi5ZKdYkrDtrLOP3PRQ==",
       "type": "package",
-      "path": "toasts.forms.plugin/2.0.4",
+      "path": "toasts.forms.plugin/3.1.4",
       "files": [
-        "Toasts.Forms.Plugin.2.0.4.nupkg.sha512",
-        "Toasts.Forms.Plugin.nuspec",
-        "content/portable-netcore451+wpa81/FrameStyle.xaml",
-        "content/portable-netcore451+wpa81/Icons/error.png",
-        "content/portable-netcore451+wpa81/Icons/info.png",
-        "content/portable-netcore451+wpa81/Icons/success.png",
-        "content/portable-netcore451+wpa81/Icons/warning.png",
         "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll.mdb",
         "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.pdb",
         "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll",
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll.mdb",
         "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.pdb",
         "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
         "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
         "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll",
-        "lib/portable-net45+wp8+win8+wpa81+netcore451+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/portable-net45+wp8+win8+wpa81+netcore451+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll",
-        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.pdb",
-        "lib/wp8/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/wp8/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/wp8/Toasts.Forms.Plugin.WindowsPhone.dll",
-        "lib/wp8/Toasts.Forms.Plugin.WindowsPhone.pdb"
+        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll",
+        "lib/uap10.0/Toasts.Forms.Plugin.UWP.pdb",
+        "toasts.forms.plugin.3.1.4.nupkg.sha512",
+        "toasts.forms.plugin.nuspec"
       ]
     },
     "Xam.Plugin.Connectivity/2.3.0": {
@@ -27209,7 +27198,7 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.1",
       "Splat >= 1.6.2",
-      "Toasts.Forms.Plugin >= 2.0.4",
+      "Toasts.Forms.Plugin >= 3.1.4",
       "Xam.Plugin.Connectivity >= 2.3.0",
       "Xam.Plugins.Forms.Vibrate >= 2.0.0",
       "Xam.Plugins.Messaging >= 3.2.1",
@@ -27246,10 +27235,10 @@
       "Microsoft.Bcl.Build": "1.0.21",
       "Microsoft.Identity.Client": "1.0.304142221-alpha",
       "Microsoft.Net.Http": "2.2.29",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.3.1, )",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.1",
       "Newtonsoft.Json": "10.0.1",
       "Splat": "1.6.2",
-      "Toasts.Forms.Plugin": "2.0.4",
+      "Toasts.Forms.Plugin": "[3.1.4, )",
       "Xam.Plugin.Connectivity": "2.3.0",
       "Xam.Plugins.Forms.Vibrate": "2.0.0",
       "Xam.Plugins.Messaging": "3.2.1",
