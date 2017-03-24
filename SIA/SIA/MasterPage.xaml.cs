@@ -38,6 +38,14 @@ namespace SIA
                 TargetType = typeof(ShipmentPage)
 
             });
+
+            //masterPageItems.Add(new MasterPageItem
+            //{
+            //    Title = "Sign In/Out",
+            //    IconSource = "contacts.png",
+            //    TargetType = typeof(Login)
+
+            //});
             //masterPageItems.Add(new MasterPageItem
             //{
             //    Title = "Consumption",

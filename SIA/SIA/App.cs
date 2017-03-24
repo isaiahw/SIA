@@ -13,7 +13,7 @@ namespace SIA
     {
         public static PublicClientApplication ClientApplication { get; set; }
         public static string[] Scopes = { "User.Read" };
-        public LoginResult Credential { get; set; }
+        public static LoginResult Credential { get; set; }
 
         public App()
         {
@@ -21,9 +21,9 @@ namespace SIA
 
             ClientApplication = new PublicClientApplication("59593ad4-7f4a-4c77-81a3-0439159d7da5");
             //var content = new Login();
-            //MainPage = new NavigationPage(content);
-            MainPage = new MainPage();
             
+            MainPage = new SIA.MainPage();
+
         }
 
         public async void CustomLogin()
@@ -50,7 +50,7 @@ namespace SIA
         protected override void OnStart()
         {
             // Handle when your app starts
-            CustomLogin();
+            //CustomLogin();
         }
 
         protected override void OnSleep()
