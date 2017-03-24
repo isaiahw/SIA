@@ -22,7 +22,7 @@ namespace SIA
             ClientApplication = new PublicClientApplication("59593ad4-7f4a-4c77-81a3-0439159d7da5");
             //var content = new Login();
             
-            MainPage = new SIA.MainPage();
+            MainPage = new MainPage();
 
         }
 

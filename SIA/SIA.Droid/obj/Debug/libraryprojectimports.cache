@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.Support.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.UserDialogs\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\AndHUD\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Microsoft.Identity.Client.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Connectivity\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Messaging\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Vibrate\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Acr.Support.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Acr.UserDialogs\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\AndHUD\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Microsoft.Identity.Client.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Connectivity\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Messaging\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Vibrate\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Splat\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.Support.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.UserDialogs.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\AndHUD.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Microsoft.Identity.Client.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Messaging.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Vibrate.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
