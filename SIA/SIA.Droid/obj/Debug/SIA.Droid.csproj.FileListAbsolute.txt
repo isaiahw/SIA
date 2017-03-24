@@ -21,8 +21,6 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Splat.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Extensions.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Primitives.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Abstractions.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Droid.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
@@ -44,9 +42,7 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.Support.Android.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.Support.Android.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.pdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.pdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Microsoft.Identity.Client.xml
@@ -73,10 +69,6 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.Abstractions.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Splat.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Extensions.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Primitives.xml
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Abstractions.pdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Abstractions.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Droid.pdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Toasts.Forms.Plugin.Droid.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb

@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 using System.Text;
 using ZXing.Net.Mobile.Forms;
 using Plugin.Vibrate;
-using Plugin.Toasts;
+
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using Plugin.Connectivity;
@@ -20,6 +20,8 @@ namespace SIA
     {
         ZXingScannerPage scanPage;
         
+
+
         public Entry JORNo = new Entry { Placeholder = "JOR Number", HorizontalOptions=LayoutOptions.FillAndExpand };
         public Button JORBtn = new Button
         {
@@ -95,7 +97,7 @@ namespace SIA
                 else
                 {
                     CrossVibrate.Current.Vibration(2000);
-                    ShowToast(ToastNotificationType.Error, "Device is not connected to SIA Wi-Fi", 5);
+                    UserDialogs.Instance.ShowError("Device not connected to SIA WI - FI!", 2000);
                     isConnected = false;
                 }
 
@@ -296,7 +298,7 @@ namespace SIA
                     {
                         SaveDPRBtn.IsEnabled = true;
                         CrossVibrate.Current.Vibration();
-                        ShowToast(ToastNotificationType.Success, "", 5);
+                        UserDialogs.Instance.ShowSuccess("Success", 1000);
                         var credentialLocal = new LoginResult(true, Operator.Text, Password.Text);
                         var tabbedPage = this.Parent as DailyJOR;
                         tabbedPage.credential = credentialLocal;
@@ -305,7 +307,7 @@ namespace SIA
                     {
                         SaveDPRBtn.IsEnabled = false;
                         CrossVibrate.Current.Vibration(2000);
-                        ShowToast(ToastNotificationType.Error, "Wrong Password!", 5);
+                        UserDialogs.Instance.ShowError("Wrong User or Password!", 2000);
                     }
                 }
                 catch (System.Exception ex) { var x = ex.ToString(); x = null; }
@@ -404,7 +406,7 @@ namespace SIA
                         if (scanResult.Length != 12)
                         {
                             CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Wrong barcode! Please scan JOR number.", 5);                            
+                            UserDialogs.Instance.ShowError("Wrong barcode! Please scan JOR number.", 2000);
                             scanResult = "";
                             JORNo.Text = "";
                         }
@@ -434,11 +436,10 @@ namespace SIA
                         await Navigation.PopAsync();
 
                         scanResult = result.Text;
-                        //await DisplayAlert("Alert", scanResult, "OK");
                         if (scanResult.Length > 14)
                         {
                             CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Wrong barcode! Please scan Machine number.", 5);
+                            UserDialogs.Instance.ShowError("Wrong barcode! Please scan Machine number.", 2000);
                             scanResult = "";
                             MachineNo.Text = "";
                         }
@@ -467,11 +468,10 @@ namespace SIA
                         await Navigation.PopAsync();
 
                         scanResult = result.Text;
-                        //await DisplayAlert("Alert", scanResult, "OK");
                         if (scanResult.Length > 6)
                         {
                             CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Wrong barcode! Please scan User number.", 5);
+                            UserDialogs.Instance.ShowError("Wrong barcode! Please scan User number.", 2000);
                             scanResult = "";
                             JORNo.Text = "";
                         }
@@ -494,6 +494,7 @@ namespace SIA
             
             if (((Entry)sender).Text.Length >= 5 && isConnected)
             {
+                
                 try
                 {
                     var Url = new Uri("http://172.11.66.181/xampp/siaGetUserName.php?id=" + Operator.Text);
@@ -580,7 +581,7 @@ namespace SIA
                 if (found == false)
                 {
                     CrossVibrate.Current.Vibration(2000);
-                    ShowToast(ToastNotificationType.Error, JORNo.Text + " is not found", 5);
+                    UserDialogs.Instance.ShowError(JORNo.Text + " is not found", 2000);
                     JORNo.Text = "";
                     JORDescLbl.Text = "";
                 }
@@ -589,11 +590,7 @@ namespace SIA
         }
 
 
-        private async void ShowToast(ToastNotificationType type, string text, int second)
-        {
-            var notificator = DependencyService.Get<IToastNotificator>();
-            bool tapped = await notificator.Notify(type, type.ToString().ToLower(), text, TimeSpan.FromSeconds(second));
-        }
+       
 
         
 

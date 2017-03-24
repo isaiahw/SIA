@@ -5,6 +5,7 @@ using System.Text;
 using Xamarin.Forms;
 using Plugin.Connectivity;
 using Microsoft.Identity.Client;
+using Acr.UserDialogs;
 
 namespace SIA
 {
@@ -12,7 +13,7 @@ namespace SIA
     {
         public static PublicClientApplication ClientApplication { get; set; }
         public static string[] Scopes = { "User.Read" };
-
+        public LoginResult Credential { get; set; }
 
         public App()
         {
@@ -25,11 +26,31 @@ namespace SIA
             
         }
 
+        public async void CustomLogin()
+        {
+            Credential = await UserDialogs.Instance.LoginAsync(new LoginConfig
+            {
+                Message = "to SIA",
+                OkText = "OK",
+                CancelText = "Cancel",
+                LoginPlaceholder = "ID",
+                PasswordPlaceholder = "Password"
+            }); ;
 
+            //need to check database for correct credential..
+            //if credential false, then call Custom Login Again.
+            //Need to change DailyJORRecord.cs on the user and password thingy.. 24Mar2017
+
+
+
+            UserDialogs.Instance.ShowSuccess(Credential.LoginText + " " + Credential.Password+" "+Credential.Ok, 5000);
+            if (Credential.Ok == false) CustomLogin();
+        }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+            CustomLogin();
         }
 
         protected override void OnSleep()

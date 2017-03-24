@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
-using Plugin.Toasts;
+
 
 namespace SIA.iOS
 {
@@ -27,8 +27,6 @@ namespace SIA.iOS
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             global::Xamarin.Forms.Forms.Init();
 
-            DependencyService.Register<ToastNotificatorImplementation>();
-            ToastNotificatorImplementation.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

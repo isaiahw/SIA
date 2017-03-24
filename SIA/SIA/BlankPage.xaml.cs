@@ -1,6 +1,5 @@
 ﻿
 using Plugin.Connectivity;
-using Plugin.Toasts;
 using Plugin.Vibrate;
 using System;
 using System.Collections.Generic;
@@ -38,11 +37,7 @@ namespace SIA
             }
         }
 
-        private async void ShowToast(ToastNotificationType type, string text, int second)
-        {
-            var notificator = DependencyService.Get<IToastNotificator>();
-            bool tapped = await notificator.Notify(type, type.ToString().ToLower(), text, TimeSpan.FromSeconds(second));
-        }
+        
     }
 
     

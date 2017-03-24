@@ -258,8 +258,6 @@ namespace SIA.UWP.SIA_UWP_XamlTypeInfo
                     otherProviders.Add(provider); 
                     provider = new global::Coding4Fun.Toolkit.Controls.Coding4Fun_Toolkit_Controls__Win8_1__XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
-                    provider = new global::Toasts.Forms.Plugin.WinRT.Toasts_Forms_Plugin_WinRT_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
-                    otherProviders.Add(provider); 
                     provider = new global::Xamarin.Forms.Platform.UAP.Xamarin_Forms_Platform_UAP_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     provider = new global::ZXing.Net.Mobile.ZXing_Net_Mobile_WindowsUniversal_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;

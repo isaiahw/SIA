@@ -9,10 +9,11 @@ using ZXing.Net.Mobile.Forms;
 using System.Net;
 using System.Threading.Tasks;
 using Plugin.Vibrate;
-using Plugin.Toasts;
+
 using Plugin.Connectivity;
 using System.Diagnostics;
 using System.Net.Http;
+using Acr.UserDialogs;
 
 namespace SIA
 {
@@ -258,7 +259,7 @@ namespace SIA
                         if (successFlag == true)
                         {
                             CrossVibrate.Current.Vibration();
-                            ShowToast(ToastNotificationType.Success, "Successfully saved to " + mstId.Text, 3);                            
+                            UserDialogs.Instance.Alert("Successfully saved to " + mstId.Text, "Success");
                             SoundPlayer.PlaySound(523.25);
                             scannedItems.Clear();
                             await loadDPROutput();
@@ -269,15 +270,15 @@ namespace SIA
                     else
                     {
                         CrossVibrate.Current.Vibration(2000);
-                        ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI! Unable to save to server", 5);
+                        UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to save to server", 2000);
                     }
                         
                     
                 }
                 else
                 {
-                    CrossVibrate.Current.Vibration(2000);
-                    await DisplayAlert("Alert", "Empty List !", "OK");
+                    CrossVibrate.Current.Vibration(2000);                    
+                    UserDialogs.Instance.ShowError("Empty List !", 2000);
                 }
 
             };
@@ -304,7 +305,7 @@ namespace SIA
                         await Navigation.PopAsync();
                         if (result.Text.Length < 23)
                         {
-                            ShowToast(ToastNotificationType.Error, "Wrong Barcode! (" + result.Text + ")", 5);
+                            UserDialogs.Instance.ShowError("Wrong Barcode! (" + result.Text + ")", 2000);
                             SoundPlayer.PlaySound(65.4, 500);
                             return;
                         }
@@ -313,7 +314,7 @@ namespace SIA
                         var tabbedPage = this.Parent as DailyJOR;
                         if (result.Text.Substring(0, 3).Trim() != tabbedPage.DPRs.DPRBarCodeRefno.ToString().Trim())
                         {
-                            ShowToast(ToastNotificationType.Error, "Wrong Barcode! (" + result.Text + ") does not belong to " + lblJORNo.Text, 5);
+                            UserDialogs.Instance.ShowError("Wrong Barcode! (" + result.Text + ") does not belong to " + lblJORNo.Text, 2000);
                             SoundPlayer.PlaySound(65.4, 500);
                             return;
                         }
@@ -321,7 +322,7 @@ namespace SIA
                         if (IsConnected == false)
                         {
                             CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI! Unable to get details for scanned item (" + result.Text + ")", 5);
+                            UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to get details for scanned item (" + result.Text + ")", 2000);
                             return;
                         }
 
@@ -335,7 +336,7 @@ namespace SIA
                             {
                                 SoundPlayer.PlaySound(65.4, 500);
                                 CrossVibrate.Current.Vibration(2000);
-                                ShowToast(ToastNotificationType.Error, "Item " + newItem.lotNumber + " is already scanned", 5);
+                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already scanned", 2000);
                                 scanPage.IsScanning = false;
                                 duplicate = true;
                                 break;
@@ -358,7 +359,7 @@ namespace SIA
                             {
                                 SoundPlayer.PlaySound(65.4, 500);
                                 CrossVibrate.Current.Vibration(2000);
-                                ShowToast(ToastNotificationType.Error, "Item " + newItem.lotNumber + " is already scanned", 5);
+                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already scanned", 2000);
                                 scanPage.IsScanning = false;
                                 duplicate = true;
                             }
@@ -381,7 +382,7 @@ namespace SIA
                         //    {
                         //        SoundPlayer.PlaySound(65.4, 500);
                         //        CrossVibrate.Current.Vibration(2000);
-                        //        ShowToast(ToastNotificationType.Error, "Item " + newItem.lotNumber + " is already posted", 5);
+                        //        UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already posted", 2000);  
                         //        scanPage.IsScanning = false;
                         //        duplicate = true;
                         //    }
@@ -412,7 +413,7 @@ namespace SIA
                                 {
                                     SoundPlayer.PlaySound(65.4, 500);
                                     CrossVibrate.Current.Vibration(2000);
-                                    ShowToast(ToastNotificationType.Error, "Item " + newItem.lotNumber + " was not saved successfully", 5);
+                                    UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " was not saved successfully", 2000);
                                     scanPage.IsScanning = false;
 
                                 }
@@ -423,7 +424,7 @@ namespace SIA
                                     totalQtyScanned = totalQtyScanned + newItem.quantity;
                                     //Get lstView and update the header with scannedItems count and total quantity 
                                     lstView.Header = scannedItems.Count().ToString() + " lot scanned. Total Qty = " + totalQtyScanned.ToString();
-                                    ShowToast(ToastNotificationType.Success, "Successfully scanned " + newItem.lotNumber, 3);
+                                    UserDialogs.Instance.Alert("Successfully scanned " + newItem.lotNumber, "Success");
                                     SoundPlayer.PlaySound(523.25);
                                     CrossVibrate.Current.Vibration();
                                 }
@@ -494,11 +495,7 @@ namespace SIA
 
         }
 
-        private async void ShowToast(ToastNotificationType type, string text, int second)
-        {
-            var notificator = DependencyService.Get<IToastNotificator>();            
-            bool tapped = await notificator.Notify(type, type.ToString().ToLower(), text, TimeSpan.FromSeconds(second));
-        }
+        
 
         public async Task UpdateConnection()
         {
@@ -510,7 +507,7 @@ namespace SIA
             {
                 IsConnected = false;
                 CrossVibrate.Current.Vibration(2000);
-                ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI!", 5);
+                UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI!", 2000);
             }
         }
 

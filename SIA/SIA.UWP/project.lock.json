@@ -2,7 +2,7 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -2356,17 +2356,6 @@
           }
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -2457,7 +2446,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -4896,17 +4885,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -4997,7 +4975,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -7475,17 +7453,6 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -7576,7 +7543,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -10024,17 +9991,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -10125,7 +10081,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -12612,17 +12568,6 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -12713,7 +12658,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -15161,17 +15106,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -15262,7 +15196,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Acr.UserDialogs/6.3.8": {
+      "Acr.UserDialogs/6.3.10": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -17749,17 +17683,6 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Toasts.Forms.Plugin/3.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll": {},
-          "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll": {}
-        }
-      },
       "Xam.Plugin.Connectivity/2.3.0": {
         "type": "package",
         "compile": {
@@ -17851,18 +17774,16 @@
     }
   },
   "libraries": {
-    "Acr.UserDialogs/6.3.8": {
-      "sha512": "xYtXodDxn3r1EwwunCvmN9vZIZ7Z7ldlJxV7TRWRAPIb8C7zwQR4ZS5AqwZQeKxnwu3jTNNA6LOhF2aNlhMRGg==",
+    "Acr.UserDialogs/6.3.10": {
+      "sha512": "KOSYVT0BFEpPbp7p3QZQgRsXZ+jSvuvSMDck8YsB31xan8GMOtU57uh2B1MFOsi3dxL0TF8A1hplhbJgdLJEkQ==",
       "type": "package",
-      "path": "acr.userdialogs/6.3.8",
+      "path": "acr.userdialogs/6.3.10",
       "files": [
-        "acr.userdialogs.6.3.8.nupkg.sha512",
+        "acr.userdialogs.6.3.10.nupkg.sha512",
         "acr.userdialogs.nuspec",
         "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll",
-        "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll.mdb",
         "lib/MonoAndroid10/Acr.UserDialogs.Interface.pdb",
         "lib/MonoAndroid10/Acr.UserDialogs.dll",
-        "lib/MonoAndroid10/Acr.UserDialogs.dll.mdb",
         "lib/MonoAndroid10/Acr.UserDialogs.pdb",
         "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll",
         "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll.mdb",
@@ -26771,28 +26692,6 @@
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
     },
-    "Toasts.Forms.Plugin/3.1.4": {
-      "sha512": "S3X8hQYpWuvpqfC7gWeijybP5IDJGKb1P+su31cZRIzA6pBZthBjAwEGo34SgoSKeMUAi5ZKdYkrDtrLOP3PRQ==",
-      "type": "package",
-      "path": "toasts.forms.plugin/3.1.4",
-      "files": [
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll",
-        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.pdb",
-        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll",
-        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll",
-        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.pdb",
-        "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll",
-        "lib/uap10.0/Toasts.Forms.Plugin.UWP.pdb",
-        "toasts.forms.plugin.3.1.4.nupkg.sha512",
-        "toasts.forms.plugin.nuspec"
-      ]
-    },
     "Xam.Plugin.Connectivity/2.3.0": {
       "sha512": "Lo9kX32BsI3t4Xsqgl2NPKp9INu577C1MH11tHUbw+kfV/1E+UKMgHjkDkDGO/bEzP/cXfCjAoPOVx1rIBO7uQ==",
       "type": "package",
@@ -27190,7 +27089,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Acr.UserDialogs >= 6.3.8",
+      "Acr.UserDialogs >= 6.3.10",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Build >= 1.0.21",
       "Microsoft.Identity.Client >= 1.0.304142221-alpha",
@@ -27198,7 +27097,6 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.1",
       "Splat >= 1.6.2",
-      "Toasts.Forms.Plugin >= 3.1.4",
       "Xam.Plugin.Connectivity >= 2.3.0",
       "Xam.Plugins.Forms.Vibrate >= 2.0.0",
       "Xam.Plugins.Messaging >= 3.2.1",
@@ -27230,7 +27128,7 @@
       }
     },
     "dependencies": {
-      "Acr.UserDialogs": "6.3.8",
+      "Acr.UserDialogs": "[6.3.10, )",
       "Microsoft.Bcl": "1.1.10",
       "Microsoft.Bcl.Build": "1.0.21",
       "Microsoft.Identity.Client": "1.0.304142221-alpha",
@@ -27238,7 +27136,6 @@
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.1",
       "Newtonsoft.Json": "10.0.1",
       "Splat": "1.6.2",
-      "Toasts.Forms.Plugin": "[3.1.4, )",
       "Xam.Plugin.Connectivity": "2.3.0",
       "Xam.Plugins.Forms.Vibrate": "2.0.0",
       "Xam.Plugins.Messaging": "3.2.1",

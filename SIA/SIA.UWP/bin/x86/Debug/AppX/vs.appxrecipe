@@ -28,21 +28,21 @@
     <AppXManifest Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T09:09:49.760</Modified>
+      <Modified>2017-03-24T04:17:24.935</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
       <PackagePath>entrypoint\SIA.UWP.exe</PackagePath>
-      <Modified>2017-03-23T09:09:45.911</Modified>
+      <Modified>2017-03-24T04:17:23.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs.Interface.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs.dll">
       <PackagePath>Acr.UserDialogs.dll</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Coding4Fun.Toolkit.Controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls.dll">
       <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
@@ -544,14 +544,6 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Toasts.Forms.Plugin\2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.Abstractions.dll">
-      <PackagePath>Toasts.Forms.Plugin.Abstractions.dll</PackagePath>
-      <Modified>2016-06-04T09:33:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Toasts.Forms.Plugin\2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.WinRT.dll">
-      <PackagePath>Toasts.Forms.Plugin.WinRT.dll</PackagePath>
-      <Modified>2016-06-04T09:33:22.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugin.Connectivity\2.3.0\lib\UAP10\Plugin.Connectivity.Abstractions.dll">
       <PackagePath>Plugin.Connectivity.Abstractions.dll</PackagePath>
       <Modified>2017-01-06T13:42:52.000</Modified>
@@ -614,7 +606,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
       <PackagePath>SIA.dll</PackagePath>
-      <Modified>2017-03-23T08:01:56.031</Modified>
+      <Modified>2017-03-24T04:17:21.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -662,29 +654,29 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-03-08T02:34:49.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
       <PackagePath>Acr.UserDialogs\Acr.UserDialogs.xr.xml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\ActionSheetContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\ActionSheetContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\ActionSheetContentDialog.xaml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\DatePickerControl.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\DatePickerControl.xaml">
       <PackagePath>Acr.UserDialogs\DatePickerControl.xaml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\LoginContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\LoginContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\LoginContentDialog.xaml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\ProgressContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\ProgressContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\ProgressContentDialog.xaml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\TimePickerControl.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\TimePickerControl.xaml">
       <PackagePath>Acr.UserDialogs\TimePickerControl.xaml</PackagePath>
-      <Modified>2017-02-12T05:10:46.000</Modified>
+      <Modified>2017-03-13T02:24:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Coding4Fun.Toolkit.Controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">
       <PackagePath>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</PackagePath>
@@ -709,11 +701,11 @@
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T07:45:19.748</Modified>
+      <Modified>2017-03-24T03:31:34.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\SIA.UWP.exe">
       <PackagePath>SIA.UWP.exe</PackagePath>
-      <Modified>2017-03-23T09:09:49.753</Modified>
+      <Modified>2017-03-24T04:17:24.931</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

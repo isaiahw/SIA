@@ -7,7 +7,6 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
-using Plugin.Toasts;
 using Acr.UserDialogs;
 
 namespace SIA.Droid
@@ -22,8 +21,7 @@ namespace SIA.Droid
             ZXing.Net.Mobile.Forms.Android.Platform.Init();
             UserDialogs.Init(this);
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            DependencyService.Register<ToastNotificatorImplementation>();
-            ToastNotificatorImplementation.Init(this);            
+            
             LoadApplication(new App());
         }
     }

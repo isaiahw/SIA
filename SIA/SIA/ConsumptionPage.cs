@@ -9,7 +9,8 @@ using ZXing.Net.Mobile.Forms;
 using System.Net;
 using System.Threading.Tasks;
 using Plugin.Vibrate;
-using Plugin.Toasts;
+
+using Acr.UserDialogs;
 
 namespace SIA
 {
@@ -195,12 +196,11 @@ namespace SIA
                         await Navigation.PopAsync();
                         scanResult = result.Text;
                         
-                        //await DisplayAlert("Alert", scanResult, "OK");
+                        
                         if (scanResult.Length>15)
                         {
-                            CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Wrong barcode! Please scan machine number.", 5);
-                            //await DisplayAlert("Alert", "Wrong barcode! Please scan machine number.", "OK");
+                            CrossVibrate.Current.Vibration(2000);                            
+                            UserDialogs.Instance.ShowError("Wrong barcode! Please scan machine number.", 2000);                           
                             scanResult = "";
                         }
                         else
@@ -210,7 +210,7 @@ namespace SIA
                             {
                                 machineJORS.Add(i);
                             }
-                            ShowToast(ToastNotificationType.Info, "Please Select JOR Number for machine "+scanResult, 3);
+                            UserDialogs.Instance.ShowError("Please Select JOR Number for machine " + scanResult, 2000);
                         }                                              
                     });
                     
@@ -252,8 +252,8 @@ namespace SIA
                     if (successFlag==true)
                     {
                         CrossVibrate.Current.Vibration();
-                        ShowToast(ToastNotificationType.Success, "Successfully saved to "+ filename, 3);
-                        //await DisplayAlert("Alert", "Successfully saved to "+ filename, "OK");
+                        UserDialogs.Instance.ShowSuccess("Successfully saved to " + filename, 1000);
+
                         machineJORS.Clear();
                         scannedItems.Clear();                       
                     }
@@ -292,7 +292,7 @@ namespace SIA
 
                             if (scanResult.Length < 23)
                             {
-                                ShowToast(ToastNotificationType.Error, "Wrong Barcode!", 5);
+                                UserDialogs.Instance.ShowError("Wrong Barcode!", 2000);
                                 scanPage.IsScanning = false;
                                 return;
                             }
@@ -375,11 +375,7 @@ namespace SIA
             lstView.Header = scannedItems.Count().ToString() + " lot scanned. Total Qty = " + totalQtyScanned.ToString();
         }
 
-        private async void ShowToast(ToastNotificationType type, string text, int second)
-        {
-            var notificator = DependencyService.Get<IToastNotificator>();
-            bool tapped = await notificator.Notify(type, type.ToString().ToLower(), text, TimeSpan.FromSeconds(second));
-        }
+        
 
 
     }

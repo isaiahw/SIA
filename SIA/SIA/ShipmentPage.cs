@@ -9,9 +9,10 @@ using ZXing.Net.Mobile.Forms;
 using System.Net;
 using System.Threading.Tasks;
 using Plugin.Vibrate;
-using Plugin.Toasts;
+
 using Plugin.Connectivity;
 using System.Diagnostics;
+using Acr.UserDialogs;
 
 namespace SIA
 {
@@ -224,8 +225,8 @@ namespace SIA
                         if (successFlag == true)
                         {
                             CrossVibrate.Current.Vibration();
-                            ShowToast(ToastNotificationType.Success, "Successfully saved to " + mstId.Text, 3);
-                            //await DisplayAlert("Alert", "Successfully saved to "+mstId.Text, "OK");
+                            UserDialogs.Instance.ShowSuccess("Successfully saved to " + mstId.Text, 500);
+                            
                             scannedItems.Clear();
                             mstId.Text = "";
                             lstView.Header = "";
@@ -234,7 +235,7 @@ namespace SIA
                     else
                     {
                         CrossVibrate.Current.Vibration(2000);
-                        ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI! Unable to save to server", 5);
+                        UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to save to server", 2000);
                     }
 
 
@@ -274,8 +275,7 @@ namespace SIA
                         await Navigation.PopAsync();
                         if (scanResult.Length < 23)
                         {
-                            ShowToast(ToastNotificationType.Error, "Wrong Barcode! (" + scanResult + ")", 5);
-
+                            UserDialogs.Instance.ShowError("Wrong Barcode! (" + scanResult + ")", 2000);
                             return;
                         }
 
@@ -285,7 +285,7 @@ namespace SIA
                         if (IsConnected == false)
                         {
                             CrossVibrate.Current.Vibration(2000);
-                            ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI! Unable to get details for scanned item (" + scanResult + ")", 5);
+                            UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to get details for scanned item (" + scanResult + ")", 2000);
                         }
 
                         await newItem.GetData(itemType, scanResult);
@@ -296,7 +296,7 @@ namespace SIA
                             if (i.entryRef == newItem.entryRef)
                             {
                                 CrossVibrate.Current.Vibration(2000);
-                                ShowToast(ToastNotificationType.Error, "Item " + newItem.lotNumber + " is already scanned", 5);
+                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already scanned", 2000);
                                 scanPage.IsScanning = false;
                                 duplicate = true;
                                 break;
@@ -312,8 +312,7 @@ namespace SIA
                             //Get lstView and update the header with scannedItems count and total quantity 
                             lstView.Header = scannedItems.Count().ToString() + " lot scanned. Total Qty = " + totalQtyScanned.ToString();
                             CrossVibrate.Current.Vibration();
-                            //scanPage.DefaultOverlayTopText = newItem.lotNumber;
-                            ShowToast(ToastNotificationType.Success, "Successfully scanned " + newItem.lotNumber, 3);
+                            UserDialogs.Instance.ShowSuccess("Successfully scanned " + newItem.lotNumber, 500);
                         }
 
                     });
@@ -369,12 +368,6 @@ namespace SIA
             lstView.Header = scannedItems.Count().ToString() + " lot scanned. Total Qty = " + totalQtyScanned.ToString();
         }
 
-        private async void ShowToast(ToastNotificationType type, string text, int second)
-        {
-            var notificator = DependencyService.Get<IToastNotificator>();
-            bool tapped = await notificator.Notify(type, type.ToString().ToLower(), text, TimeSpan.FromSeconds(second));
-        }
-
         public async Task UpdateConnection()
         {
             if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
@@ -385,7 +378,7 @@ namespace SIA
             {
                 IsConnected = false;
                 CrossVibrate.Current.Vibration(2000);
-                ShowToast(ToastNotificationType.Error, "Device not connected to SIA WI-FI!", 5);
+                UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI!", 2000);
             }
         }
 

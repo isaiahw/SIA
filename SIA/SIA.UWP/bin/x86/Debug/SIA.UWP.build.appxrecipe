@@ -25,10 +25,10 @@
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
       <PackagePath>entrypoint\SIA.UWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs.Interface.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs.dll">
       <PackagePath>Acr.UserDialogs.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Coding4Fun.Toolkit.Controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls.dll">
@@ -406,12 +406,6 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Toasts.Forms.Plugin\2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.Abstractions.dll">
-      <PackagePath>Toasts.Forms.Plugin.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Toasts.Forms.Plugin\2.0.4\lib\portable-netcore451+wpa81\Toasts.Forms.Plugin.WinRT.dll">
-      <PackagePath>Toasts.Forms.Plugin.WinRT.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugin.Connectivity\2.3.0\lib\UAP10\Plugin.Connectivity.Abstractions.dll">
       <PackagePath>Plugin.Connectivity.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -496,22 +490,22 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
       <PackagePath>Acr.UserDialogs\Acr.UserDialogs.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\ActionSheetContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\ActionSheetContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\ActionSheetContentDialog.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\DatePickerControl.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\DatePickerControl.xaml">
       <PackagePath>Acr.UserDialogs\DatePickerControl.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\LoginContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\LoginContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\LoginContentDialog.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\ProgressContentDialog.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\ProgressContentDialog.xaml">
       <PackagePath>Acr.UserDialogs\ProgressContentDialog.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.8\lib\uap10.0\Acr.UserDialogs\TimePickerControl.xaml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs\TimePickerControl.xaml">
       <PackagePath>Acr.UserDialogs\TimePickerControl.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Coding4Fun.Toolkit.Controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">

@@ -159,10 +159,11 @@ namespace SIA
             base.OnAppearing();
 
             
-            
 
-            //credential = await UserDialogs.Instance.LoginAsync("Login");
-            //await DisplayAlert("test", credential.LoginText+", "+credential.Password+", "+credential.Ok.ToString()+", "+credential.Value.UserName, "Cancel");
+
+
+
+
 
 
             await loadReleasedJOR();

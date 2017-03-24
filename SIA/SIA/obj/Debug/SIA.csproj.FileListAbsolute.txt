@@ -14,7 +14,6 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Vibrate.Abstractions.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Vibrate.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Splat.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Web.Services.dll
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\Toasts.Forms.Plugin.Abstractions.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Core.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Platform.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -62,7 +61,6 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Vibrate.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Vibrate.Abstractions.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Vibrate.Abstractions.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Web.Services.xml
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\Toasts.Forms.Plugin.Abstractions.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Core.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Core.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Xamarin.Forms.Platform.pdb
