@@ -102,3 +102,6 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.EnterpriseServices.Wrapper.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.pdb
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csprojResolveAssemblyReference.cache
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
+D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb
