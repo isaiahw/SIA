@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-24T09:35:55.410</Modified>
+      <Modified>2017-03-27T04:10:52.725</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
       <PackagePath>entrypoint\SIA.UWP.exe</PackagePath>
-      <Modified>2017-03-24T09:35:50.382</Modified>
+      <Modified>2017-03-27T04:10:48.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.10\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -606,7 +606,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
       <PackagePath>SIA.dll</PackagePath>
-      <Modified>2017-03-24T09:35:45.727</Modified>
+      <Modified>2017-03-27T04:10:37.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -701,11 +701,11 @@
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-24T09:35:53.732</Modified>
+      <Modified>2017-03-27T02:50:15.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\SIA.UWP.exe">
       <PackagePath>SIA.UWP.exe</PackagePath>
-      <Modified>2017-03-24T09:35:55.406</Modified>
+      <Modified>2017-03-27T04:10:52.722</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
