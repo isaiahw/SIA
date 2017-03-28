@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Acr.UserDialogs;
+using Plugin.Vibrate;
+
 namespace SIA
 {
     public class DailyJOR:TabbedPage
@@ -47,7 +49,8 @@ namespace SIA
                 }
                 else
                 {
-                    await DisplayAlert("Error", "Device not connected to SIA Wi-Fi. Please connect and try again","Cancel");
+                    CrossVibrate.Current.Vibration(2000);
+                    UserDialogs.Instance.ShowError("Device not connected to SIA WI - FI! Please connect and try again", 2000);                    
                 }
                 
             };

@@ -13,29 +13,29 @@ namespace SIA
 {
     public partial class BlankPage : ContentPage
     {
-        private bool _isConnected = false;
-        public bool IsConnected
-        {
-            get { return _isConnected; }
-            set { _isConnected = value; }
-        }
+        //private bool _isConnected = false;
+        //public bool IsConnected
+        //{
+        //    get { return _isConnected; }
+        //    set { _isConnected = value; }
+        //}
 
         public BlankPage()
         {        
             InitializeComponent();
         }
         
-        public async Task UpdateConnection()
-        {
-            if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
-            {
-                IsConnected = true;
-            }
-            else
-            {
-                IsConnected = false;                             
-            }
-        }
+        //public async Task UpdateConnection()
+        //{
+        //    if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
+        //    {
+        //        IsConnected = true;
+        //    }
+        //    else
+        //    {
+        //        IsConnected = false;                             
+        //    }
+        //}
 
         
     }

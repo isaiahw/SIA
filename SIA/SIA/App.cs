@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using Plugin.Connectivity;
 using Microsoft.Identity.Client;
 using Acr.UserDialogs;
+using System.Threading.Tasks;
 
 namespace SIA
 {
@@ -14,6 +15,13 @@ namespace SIA
         public static PublicClientApplication ClientApplication { get; set; }
         public static string[] Scopes = { "User.Read" };
         public static LoginResult Credential { get; set; }
+        private bool _isConnected = false;
+
+        public bool IsConnected
+        {
+            get { return _isConnected; }
+            set { _isConnected = value; }
+        }
 
         public App()
         {
@@ -24,6 +32,18 @@ namespace SIA
             
             MainPage = new MainPage();
 
+        }
+
+        public async Task UpdateConnection()
+        {
+            if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
+            {
+                IsConnected = true;
+            }
+            else
+            {
+                IsConnected = false;
+            }
         }
 
         public async void CustomLogin()
