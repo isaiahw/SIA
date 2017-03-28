@@ -15,9 +15,9 @@ namespace SIA
         public static PublicClientApplication ClientApplication { get; set; }
         public static string[] Scopes = { "User.Read" };
         public static LoginResult Credential { get; set; }
-        private bool _isConnected = false;
+        private static bool _isConnected = false;
 
-        public bool IsConnected
+        public static bool IsConnected
         {
             get { return _isConnected; }
             set { _isConnected = value; }

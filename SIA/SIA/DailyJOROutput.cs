@@ -41,13 +41,7 @@ namespace SIA
         public ListView lstView = new ListView();       
         private bool _isConnected=false;
         public DPROutputModel DPROutput = new DPROutputModel();
-        public DailyJOR parentTabbedPage;
-
-        public bool IsConnected
-        {
-            get { return _isConnected; }
-            set { _isConnected=value; }
-        }
+        public DailyJOR parentTabbedPage;        
 
         public string itemType = null;
         
@@ -61,11 +55,11 @@ namespace SIA
             {
                 if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
                 {
-                    IsConnected = true;
+                    App.IsConnected = true;
                 }
                 else
                 {
-                    IsConnected = false;
+                    App.IsConnected = false;
                 }
             });
 
@@ -222,7 +216,7 @@ namespace SIA
                 if (scannedItems.Count() > 0)
                 {                                        
                     
-                    if(IsConnected)
+                    if(App.IsConnected)
                     {
                         //mstId.Text = DateTime.Now.ToString("ddMMMyyyy-HH-mm") + " " + mstId.Text + " " + scannedItems.Count() + "Lot ";
                         //http://sia35-conf/xampp/siaposttransfer.php?barcode=25 250      PC 3611420  &fname=transfer
@@ -319,7 +313,7 @@ namespace SIA
                             return;
                         }
 
-                        if (IsConnected == false)
+                        if (App.IsConnected == false)
                         {
                             CrossVibrate.Current.Vibration(2000);
                             UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to get details for scanned item (" + result.Text + ")", 2000);
@@ -501,11 +495,11 @@ namespace SIA
         {
             if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
             {
-                IsConnected = true;                
+                App.IsConnected = true;                
             }
             else
             {
-                IsConnected = false;
+                App.IsConnected = false;
                 CrossVibrate.Current.Vibration(2000);
                 UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI!", 2000);
             }
