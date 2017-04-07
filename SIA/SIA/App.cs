@@ -31,8 +31,10 @@ namespace SIA
             //var content = new Login();
             
             MainPage = new MainPage();
-
+            
         }
+
+        
 
         public async Task UpdateConnection()
         {

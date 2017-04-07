@@ -73,16 +73,6 @@
     <Compile Include="DPROutputModel.cs" />
     <Compile Include="ScannedItem.cs" />
     <Compile Include="ScannedItemDetails.cs" />
-    <Compile Include="Service References\SIAFGLabelService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Service References\SIANavServices\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="ShipmentPageOri.xaml.cs">
       <DependentUpon>ShipmentPageOri.xaml</DependentUpon>
     </Compile>
@@ -97,135 +87,6 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
-    <None Include="Service References\SIAFGLabelService\FGLabel.wsdl" />
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.CreateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.Create_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.Delete_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.GetRecIdFromKey_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.IsUpdated_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.ReadByRecId_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.ReadMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.Read_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.UpdateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIAFGLabelService\SIA.SIAFGLabelService.Update_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\Customer.wsdl" />
-    <None Include="Service References\SIANavServices\FGLabel.wsdl" />
-    <None Include="Service References\SIANavServices\Item.wsdl" />
-    <None Include="Service References\SIANavServices\ItemLedgerEntries.wsdl" />
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Companies_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.CreateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.CreateMultiple_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Create_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Create_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Delete_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Delete_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.GetRecIdFromKey_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.GetRecIdFromKey_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.GetRecIdFromKey_Result2.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.GetRecIdFromKey_Result3.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.IsUpdated_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.IsUpdated_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.IsUpdated_Result2.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.IsUpdated_Result3.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadByRecId_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadByRecId_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadByRecId_Result2.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadByRecId_Result3.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadMultiple_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadMultiple_Result2.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.ReadMultiple_Result3.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Read_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Read_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Read_Result2.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Read_Result3.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.UpdateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.UpdateMultiple_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Update_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SIA.SIANavServices.Update_Result1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANavServices\SystemService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BlankPage.xaml">
@@ -334,37 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\SIAFGLabelService\" />
-    <WCFMetadataStorage Include="Service References\SIANavServices\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIAFGLabelService\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIAFGLabelService\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIAFGLabelService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANavServices\Services.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANavServices\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANavServices\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANavServices\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
