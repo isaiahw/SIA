@@ -91,7 +91,7 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.VisualBasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Newtonsoft.Json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Newtonsoft.Json\10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\runtime.any.System.Collections\4.3.0\lib\netcore50\System.Collections.dll">
@@ -148,6 +148,9 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\runtime.win.Microsoft.Win32.Primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\runtime.win.System.Console\4.3.0\runtimes\win\lib\netcore50\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\runtime.win.System.Diagnostics.Debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
     </AppxPackagedFile>
@@ -175,13 +178,13 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Splat\1.6.2\lib\NetCore45\Splat.dll">
       <PackagePath>Splat.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.AppContext\4.1.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.AppContext\4.3.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Collections.Concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Collections.Concurrent\4.3.0\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Collections.Immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
@@ -214,7 +217,7 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Diagnostics.Contracts\4.3.0\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Diagnostics.DiagnosticSource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Diagnostics.DiagnosticSource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Diagnostics.StackTrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
@@ -226,10 +229,10 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Globalization.Extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.IO.Compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.IO.Compression\4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.IO.Compression.ZipFile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.IO.Compression.ZipFile\4.3.0\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.IO.FileSystem.Primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
@@ -253,13 +256,13 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Linq.Queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.Http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.Http\4.3.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.Http.Rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.NameResolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.NameResolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Net.NetworkInformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
@@ -313,6 +316,9 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Reflection.TypeExtensions\4.3.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.3.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
@@ -340,19 +346,19 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Cng\4.3.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.Primitives\4.3.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.X509Certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Cryptography.X509Certificates\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\System.Security.Principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
@@ -412,10 +418,10 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugin.Connectivity\2.3.0\lib\UAP10\Plugin.Connectivity.dll">
       <PackagePath>Plugin.Connectivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Messaging\3.2.1\lib\UAP10\Plugin.Messaging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Messaging\4.0.0\lib\UAP10\Plugin.Messaging.Abstractions.dll">
       <PackagePath>Plugin.Messaging.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Messaging\3.2.1\lib\UAP10\Plugin.Messaging.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Messaging\4.0.0\lib\UAP10\Plugin.Messaging.dll">
       <PackagePath>Plugin.Messaging.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Vibrate\2.0.0\lib\UAP10\Plugin.Vibrate.Abstractions.dll">
@@ -424,16 +430,16 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xam.Plugins.Vibrate\2.0.0\lib\UAP10\Plugin.Vibrate.dll">
       <PackagePath>Plugin.Vibrate.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\ZXing.Net.Mobile.Core.dll">
@@ -514,10 +520,10 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Coding4Fun.Toolkit.Controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Themes\Generic.xbf">
       <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.3.193\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.1.47\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
