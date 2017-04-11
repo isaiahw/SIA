@@ -45,7 +45,6 @@
     <EnableLLVM>False</EnableLLVM>
     <EnableProguard>False</EnableProguard>
     <Debugger>.Net (Xamarin)</Debugger>
-    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
