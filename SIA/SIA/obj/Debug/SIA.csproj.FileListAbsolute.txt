@@ -111,5 +111,3 @@ D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb

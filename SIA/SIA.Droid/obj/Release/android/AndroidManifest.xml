@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="1.0" package="SIA.Droid">
-  <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="15" />
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
   <uses-permission android:name="android.permission.FLASHLIGHT" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.VIBRATE" />
   <application android:label="SIA" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="SIA" android:name="md533731f5da12bb84ab3b909f9d0485273.MainActivity">
@@ -14,7 +15,9 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md5efbbd095bd1d3f33d6de8faf23ad7ccc.ZxingActivity" />
+    <activity android:label="Sign in" android:name="md553a2c26e32f0b8c506a9fd8851ec5db2.AuthenticationAgentActivity" />
+    <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md531e46b185997765898cde66852db2a40.ConnectivityChangeBroadcastReceiver" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md55109d95aac470e32f9a4031a908f0227.ZxingActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="SIA.Droid.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

@@ -1,4 +1,3 @@
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.csprojResolveAssemblyReference.cache
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.config
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.pdb
@@ -47,6 +46,7 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.pdb
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Microsoft.Identity.Client.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Microsoft.Identity.Client.Platform.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Newtonsoft.Json.xml
@@ -58,8 +58,10 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.xml
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.xml
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.dll.mdb
@@ -71,9 +73,13 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Extensions.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Primitives.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.xml
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.csprojResolveAssemblyReference.cache
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.pdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\bin\SIA.Droid.apk
@@ -89,12 +95,6 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\R.cs.flag
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\uploadflags.txt
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Java.Interop.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\Mono.Android.dll.mdb

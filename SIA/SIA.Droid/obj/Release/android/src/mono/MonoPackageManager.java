@@ -99,14 +99,24 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SIA.Droid.dll" comes first in this list. */
 		"SIA.Droid.dll",
+		"Acr.Support.Android.dll",
+		"Acr.UserDialogs.dll",
+		"Acr.UserDialogs.Interface.dll",
+		"AndHUD.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Identity.Client.dll",
+		"Microsoft.Identity.Client.Platform.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
+		"Plugin.Messaging.Abstractions.dll",
+		"Plugin.Messaging.dll",
 		"Plugin.Vibrate.Abstractions.dll",
 		"Plugin.Vibrate.dll",
+		"Splat.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
-		"Toasts.Forms.Plugin.Abstractions.dll",
-		"Toasts.Forms.Plugin.Droid.dll",
+		"System.ObjectModel.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -124,9 +134,7 @@ class MonoPackageManager_Resources {
 		"ZXing.Net.Mobile.Forms.dll",
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
-		"Java.Interop.dll",
 		"SIA.dll",
-		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
