@@ -76,7 +76,7 @@ namespace SIA
         public Label QtyHOLbl = new Label { TextColor = Color.Aqua };
         public Label QtyTOLbl = new Label { TextColor = Color.Aqua };
 
-        public Entry Operator = new Entry { Placeholder = "Operator", HorizontalOptions = LayoutOptions.FillAndExpand };
+        public Entry Operator = new Entry { Placeholder = "Operator ID", HorizontalOptions = LayoutOptions.FillAndExpand };
         public Entry Password = new Entry { Placeholder = "", IsPassword = true, HorizontalOptions = LayoutOptions.FillAndExpand };
         public Entry QtyScrap = new Entry { Placeholder = "In-Process Scrap", Keyboard = Keyboard.Numeric };
         private Boolean isConnected = false;
@@ -307,7 +307,7 @@ namespace SIA
                     {
                         SaveDPRBtn.IsEnabled = false;
                         CrossVibrate.Current.Vibration(2000);
-                        UserDialogs.Instance.ShowError("Wrong User or Password!", 2000);
+                        UserDialogs.Instance.ShowError("Wrong User ID or Password!", 2000);
                     }
                 }
                 catch (System.Exception ex) { var x = ex.ToString(); x = null; }

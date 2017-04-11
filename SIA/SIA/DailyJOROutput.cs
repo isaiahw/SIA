@@ -387,8 +387,7 @@ namespace SIA
 
                         if (!duplicate)
                         {
-                            duplicate = false;
-
+                            
 
                             //save to db
                             try

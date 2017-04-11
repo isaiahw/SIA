@@ -305,13 +305,7 @@ namespace SIA
                         }
 
                         
-                        var tabbedPage = this.Parent as DailyJOR;
-                        if (result.Text.Substring(0, 3).Trim() != tabbedPage.DPRs.DPRBarCodeRefno.ToString().Trim())
-                        {
-                            UserDialogs.Instance.ShowError("Wrong Barcode! (" + result.Text + ") does not belong to " + lblJORNo.Text, 2000);
-                            SoundPlayer.PlaySound(65.4, 500);
-                            return;
-                        }
+                        var tabbedPage = this.Parent as DailyJOR;                        
 
                         if (App.IsConnected == false)
                         {
@@ -335,30 +329,30 @@ namespace SIA
                                 break;
                             }
                         }
-                        //need to check for posted output on DB(qryrmlaststatus & dailyOutputLot) as well
+                        //need to check for posted output on DB(qryrmlaststatus & dailyConsumptionLot) as well
                         //from consumption scanned but not posted (dailyConsumptionLot). maybe no need to check as 1 RM lot can be consumed multiple times.
-                        try
-                        {
-                            var Url = new Uri("http://172.11.66.181/xampp/SIACheckDailyConsumption.php?lotNumber=" + newItem.lotNumber);
+                        //try
+                        //{
+                        //    var Url = new Uri("http://172.11.66.181/xampp/SIACheckDailyConsumption.php?lotNumber=" + newItem.lotNumber);
 
-                            var client = new HttpClient();
+                        //    var client = new HttpClient();
 
-                            var json = await client.GetAsync(Url);
+                        //    var json = await client.GetAsync(Url);
 
-                            json.EnsureSuccessStatusCode();
+                        //    json.EnsureSuccessStatusCode();
 
-                            string contents = await json.Content.ReadAsStringAsync();
-                            if (contents.Trim().ToUpper() == "FOUND")
-                            {
-                                SoundPlayer.PlaySound(65.4, 500);
-                                CrossVibrate.Current.Vibration(2000);
-                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already scanned", 2000);
-                                scanPage.IsScanning = false;
-                                duplicate = true;
-                            }
+                        //    string contents = await json.Content.ReadAsStringAsync();
+                        //    if (contents.Trim().ToUpper() == "FOUND")
+                        //    {
+                        //        SoundPlayer.PlaySound(65.4, 500);
+                        //        CrossVibrate.Current.Vibration(2000);
+                        //        UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already scanned", 2000);
+                        //        scanPage.IsScanning = false;
+                        //        duplicate = true;
+                        //    }
 
-                        }
-                        catch (System.Exception e) { var x = e.ToString(); x = null; }
+                        //}
+                        //catch (System.Exception e) { var x = e.ToString(); x = null; }
                         //from consumption already posted(qryrmlaststatus). maybe no need to check as 1 RM lot can be consumed multiple times.
 
                         //try
