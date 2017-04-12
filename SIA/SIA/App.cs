@@ -7,6 +7,8 @@ using Plugin.Connectivity;
 using Microsoft.Identity.Client;
 using Acr.UserDialogs;
 using System.Threading.Tasks;
+using System.Net.Http;
+using Plugin.Vibrate;
 
 namespace SIA
 {
@@ -62,10 +64,33 @@ namespace SIA
             //need to check database for correct credential..
             //if credential false, then call Custom Login Again.
             //Need to change DailyJORRecord.cs on the user and password thingy.. 24Mar2017
+            try
+            {
 
 
+                var Url = new Uri("http://172.11.66.181/xampp/siaVerifyPwd.php?id=" + Credential.LoginText + "&pwd=" + Credential.Password);
 
-            UserDialogs.Instance.ShowSuccess(Credential.LoginText + " " + Credential.Password+" "+Credential.Ok, 5000);
+                var client = new HttpClient();
+
+                var json = await client.GetAsync(Url);
+
+                json.EnsureSuccessStatusCode();
+
+                string contents = await json.Content.ReadAsStringAsync();
+                if (contents != "\r\nFALSE")
+                {                    
+                    CrossVibrate.Current.Vibration();
+                    UserDialogs.Instance.ShowSuccess("Welcome " + Credential.LoginText, 1000);
+                    Credential = new LoginResult(true, Credential.LoginText, Credential.Password);                         
+                }
+                else
+                {                    
+                    CrossVibrate.Current.Vibration(2000);
+                    UserDialogs.Instance.ShowError("Wrong User ID or Password!", 2000);
+                }
+            }
+            catch (System.Exception ex) { var x = ex.ToString(); x = null; }
+            
             if (Credential.Ok == false) CustomLogin();
         }
 
