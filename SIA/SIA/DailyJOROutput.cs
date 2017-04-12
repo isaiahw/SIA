@@ -292,6 +292,8 @@ namespace SIA
                 {
                     Device.BeginInvokeOnMainThread(async () =>
                     {
+                        
+
                         var newItem = new DPROutputModel();
                         newItem.DprID = DPRIdLbl.Text;
                         scanResult = result.Text;
@@ -306,6 +308,9 @@ namespace SIA
 
                         
                         var tabbedPage = this.Parent as DailyJOR;
+
+                        
+                        //check if label item is the same as jor item
                         if (result.Text.Substring(0, 3).Trim() != tabbedPage.DPRs.DPRBarCodeRefno.ToString().Trim())
                         {
                             UserDialogs.Instance.ShowError("Wrong Barcode! (" + result.Text + ") does not belong to " + lblJORNo.Text, 2000);
@@ -319,6 +324,7 @@ namespace SIA
                             UserDialogs.Instance.ShowError("Device not connected to SIA WI-FI! Unable to get details for scanned item (" + result.Text + ")", 2000);
                             return;
                         }
+
 
                         await newItem.GetData(itemType, result.Text);
 
