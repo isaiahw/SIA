@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
 using Acr.UserDialogs;
+using System.Data.SqlClient;
 
 namespace SIA.Droid
 {

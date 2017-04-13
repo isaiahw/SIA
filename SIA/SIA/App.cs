@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Plugin.Vibrate;
 
+
 namespace SIA
 {
     public class App : Application
