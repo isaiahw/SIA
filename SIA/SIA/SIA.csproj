@@ -47,6 +47,7 @@
     <Compile Include="DailyJORRecord.cs" />
     <Compile Include="DPRModel.cs" />
     <Compile Include="DPRConsumptionModel.cs" />
+    <Compile Include="IGetNavData.cs" />
     <Compile Include="IPlatformSoundPlayer.cs" />
     <Compile Include="JSONModel.cs" />
     <Compile Include="Login.xaml.cs">
@@ -84,7 +85,6 @@
     <Compile Include="ShipmentPage.cs" />
     <Compile Include="ConsumptionPage.cs" />
     <Compile Include="SoundPlayer.cs" />
-    <Compile Include="GetNav.cs" />
     <Compile Include="DailyJOROutput.cs" />
     <Compile Include="TransferPage.cs" />
   </ItemGroup>

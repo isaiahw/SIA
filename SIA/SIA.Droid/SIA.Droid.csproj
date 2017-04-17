@@ -200,6 +200,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetNavData.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PlatformSoundPlayer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
