@@ -12,7 +12,7 @@ namespace SIA.iOS
 {
     public class GetNavData : IGetNavData
     {
-        private string connStr;
+        private string connStr = "Provider=System.Data.SqlClient;Server=MISSERVER11;Database=SIA;Uid=sa;Pwd=sanwa;";
         private string data = "";
         private List<string> dataList;
 
