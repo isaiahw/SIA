@@ -10,5 +10,6 @@ namespace SIA
     {
         string getQuerySingleRow(string sql);
         List<string> getQueryMultipleRows(string sql);
+        string getQueryJSON(string sql);
     }
 }

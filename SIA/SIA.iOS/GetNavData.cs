@@ -18,6 +18,31 @@ namespace SIA.iOS
 
         public GetNavData() { }
 
+        public string getQueryJSON(string sql)
+        {
+            using (SqlConnection connection = new SqlConnection(connStr))
+            {
+
+                SqlCommand command = new SqlCommand(sql, connection);
+                try
+                {
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        //must convert to JSON format
+                        data = reader[0].ToString();
+                    }
+                    reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    data = ex.Message;
+                }
+            }
+            return data;
+        }
+
         public string getQuerySingleRow(string sql)
         {
             
