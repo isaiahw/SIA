@@ -39,7 +39,7 @@ namespace SIA
         public Button delSelectedBtn = new Button { Text = "Delete Selected Items" };
         public Button saveToServerBtn = new Button { Text = "Save to Server" };
         public ListView lstView = new ListView();       
-        private bool _isConnected=false;
+        //private bool _isConnected=false;
         public DPRConsumptionModel DPRConsumption = new DPRConsumptionModel();
         public DailyJOR parentTabbedPage;
 
