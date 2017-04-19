@@ -86,3 +86,9 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Data.Tds.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Transactions.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IdentityModel.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XmlSerializer.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.EventBasedAsync.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Http.dll

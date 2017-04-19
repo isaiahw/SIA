@@ -151,5 +151,9 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.md
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.IdentityModel.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.ServiceModel.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IdentityModel.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.mdb

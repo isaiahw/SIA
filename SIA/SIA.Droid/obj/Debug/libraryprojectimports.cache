@@ -12,7 +12,6 @@
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
@@ -26,7 +25,6 @@
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Splat\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
@@ -41,7 +39,6 @@
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

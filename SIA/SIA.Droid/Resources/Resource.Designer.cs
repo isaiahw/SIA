@@ -70,9 +70,6 @@ namespace SIA.Droid
 			global::Plugin.Vibrate.Resource.String.Hello = global::SIA.Droid.Resource.String.Hello;
 			global::Splat.Resource.String.library_name = global::SIA.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SIA.Droid.Resource.Attribute.actionBarSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::SIA.Droid.Resource.Layout.zxingscanneractivitylayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::SIA.Droid.Resource.Layout.zxingscannerfragmentlayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::SIA.Droid.Resource.String.library_name;
 			global::ZXing.Mobile.Resource.Id.contentFrame = global::SIA.Droid.Resource.Id.contentFrame;
 			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::SIA.Droid.Resource.Layout.zxingscanneractivitylayout;
 			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::SIA.Droid.Resource.Layout.zxingscannerfragmentlayout;
