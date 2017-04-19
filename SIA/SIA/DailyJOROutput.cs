@@ -342,7 +342,7 @@ namespace SIA
                                 break;
                             }
                         }
-                        //need to check for posted output on DB(qryfglaststatus & dailyOutputLot) as well
+                        //need to check for posted output on DB(NAV Item Ledger Entry & dailyOutputLot) as well
                         //from output scanned but not posted (dailyOutputLot)
                         try
                         {
@@ -366,30 +366,30 @@ namespace SIA
 
                         }
                         catch (System.Exception e) { var x = e.ToString(); x = null; }
-                        //from output already posted(qryfglaststatus)
-                        //try
-                        //{
-                        //    var Url = new Uri("http://172.11.66.181/xampp/SIACheckItemLastStatus.php?entryRef=" + newItem.entryRef+"&barcoderef="+newItem.barCodeRef);
+                        //from output already posted(NAV Item Ledger Entry)
+                        try
+                        {
+                            var Url = new Uri("http://172.11.66.181/xampp/SIACheckItemLastStatus.php?entryRef=" + newItem.entryRef + "&barcoderef=" + newItem.barCodeRef);
 
-                        //    var client = new HttpClient();
+                            var client = new HttpClient();
 
-                        //    var json = await client.GetAsync(Url);
+                            var json = await client.GetAsync(Url);
 
-                        //    json.EnsureSuccessStatusCode();
+                            json.EnsureSuccessStatusCode();
 
-                        //    string contents = await json.Content.ReadAsStringAsync();
-                        //    if (contents.Trim().ToUpper() == "FOUND")
-                        //    {
-                        //        SoundPlayer.PlaySound(65.4, 500);
-                        //        CrossVibrate.Current.Vibration(2000);
-                        //        UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already posted", 2000);  
-                        //        scanPage.IsScanning = false;
-                        //        duplicate = true;
-                        //    }
+                            string contents = await json.Content.ReadAsStringAsync();
+                            if (contents.Trim().ToUpper() == "FOUND")
+                            {
+                                SoundPlayer.PlaySound(65.4, 500);
+                                CrossVibrate.Current.Vibration(2000);
+                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already posted", 2000);
+                                scanPage.IsScanning = false;
+                                duplicate = true;
+                            }
 
-                        //}
+                        }
 
-                        //catch (System.Exception e) { var x = e.ToString(); x = null; }
+                        catch (System.Exception e) { var x = e.ToString(); x = null; }
 
                         if (!duplicate)
                         {
