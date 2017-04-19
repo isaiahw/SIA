@@ -357,7 +357,7 @@ namespace SIA
 
                         //try
                         //{
-                        //    var Url = new Uri("http://172.11.66.181/xampp/SIACheckRMLastStatus.php?entryRef=" + newItem.entryRef+"&barcoderef="+newItem.barCodeRef);
+                        //    var Url = new Uri("http://172.11.66.181/xampp/SIACheckItemLastStatus.php?entryRef=" + newItem.entryRef+"&barcoderef="+newItem.barCodeRef);
 
                         //    var client = new HttpClient();
 
@@ -460,8 +460,7 @@ namespace SIA
             {
                 scannedItems.Remove(i);
                 totalQtyScanned = totalQtyScanned - i.quantity;
-                //also delete from DB ??
-                //...http://172.11.66.181/xampp/SIADelDailyDPROutput.php?id=4
+                
                 try
                 {
                     var Url = new Uri("http://172.11.66.181/xampp/SIADelDailyDPRConsumption.php?id=" + i.Id);
