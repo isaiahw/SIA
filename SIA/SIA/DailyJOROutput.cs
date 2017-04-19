@@ -382,7 +382,7 @@ namespace SIA
                             {
                                 SoundPlayer.PlaySound(65.4, 500);
                                 CrossVibrate.Current.Vibration(2000);
-                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already posted", 2000);
+                                UserDialogs.Instance.ShowError("Item " + newItem.lotNumber + " is already posted in NAV", 2000);
                                 scanPage.IsScanning = false;
                                 duplicate = true;
                             }
