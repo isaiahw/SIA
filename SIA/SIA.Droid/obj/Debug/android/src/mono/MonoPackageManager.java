@@ -103,6 +103,7 @@ class MonoPackageManager_Resources {
 		"Acr.UserDialogs.dll",
 		"Acr.UserDialogs.Interface.dll",
 		"AndHUD.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Identity.Client.dll",
 		"Microsoft.Identity.Client.Platform.dll",

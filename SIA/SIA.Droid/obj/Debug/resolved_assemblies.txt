@@ -3,6 +3,7 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.Support.Android.dl
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\AndHUD.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\FastAndroidCamera.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\FormsViewGroup.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Microsoft.Identity.Client.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Microsoft.Identity.Client.Platform.dll

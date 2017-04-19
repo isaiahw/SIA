@@ -155,5 +155,7 @@ D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.IdentityModel.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\System.ServiceModel.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IdentityModel.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FastAndroidCamera.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\FastAndroidCamera.xml
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.mdb
