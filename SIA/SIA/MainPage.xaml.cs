@@ -15,7 +15,7 @@ namespace SIA
             InitializeComponent();
             masterPage.ListView.ItemSelected += OnItemSelected;
 
-            if (Device.OS == TargetPlatform.Windows)
+            if (Device.RuntimePlatform == Device.Windows) //if (Device.OS == TargetPlatform.Windows)
             {
                 Master.Icon = "swap.png";
             }

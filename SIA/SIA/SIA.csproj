@@ -47,7 +47,6 @@
     <Compile Include="DailyJORRecord.cs" />
     <Compile Include="DPRModel.cs" />
     <Compile Include="DPRConsumptionModel.cs" />
-    <Compile Include="IGetNavData.cs" />
     <Compile Include="IPlatformSoundPlayer.cs" />
     <Compile Include="JSONModel.cs" />
     <Compile Include="Login.xaml.cs">
@@ -74,11 +73,6 @@
     <Compile Include="DPROutputModel.cs" />
     <Compile Include="ScannedItem.cs" />
     <Compile Include="ScannedItemDetails.cs" />
-    <Compile Include="Service References\SIANAV\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="ShipmentPageOri.xaml.cs">
       <DependentUpon>ShipmentPageOri.xaml</DependentUpon>
     </Compile>
@@ -92,37 +86,6 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
-    <None Include="Service References\SIANAV\FGLabel1.wsdl" />
-    <None Include="Service References\SIANAV\SIA.SIANAV.CreateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.Create_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.Delete_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.GetRecIdFromKey_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.IsUpdated_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.ReadByRecId_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.ReadMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.Read_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.UpdateMultiple_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\SIANAV\SIA.SIANAV.Update_Result.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BlankPage.xaml">
@@ -225,21 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\SIANAV\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANAV\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANAV\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SIANAV\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

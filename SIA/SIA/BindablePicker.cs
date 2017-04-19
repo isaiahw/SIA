@@ -11,11 +11,11 @@ namespace SIA
 
         Boolean _disableNestedCalls;
 
-        public static readonly BindableProperty ItemsSourceProperty =
+        public static readonly BindableProperty ItemsSrcProperty =
             BindableProperty.Create("ItemsSource", typeof(IEnumerable), typeof(BindablePicker),
                 null, propertyChanged: OnItemsSourceChanged);
 
-        public static readonly BindableProperty SelectedItemProperty =
+        public static readonly BindableProperty SelectedItemProp =
             BindableProperty.Create("SelectedItem", typeof(Object), typeof(BindablePicker),
                 null, BindingMode.TwoWay, propertyChanged: OnSelectedItemChanged);
 
@@ -25,15 +25,15 @@ namespace SIA
 
         public String DisplayMemberPath { get; set; }
 
-        public IEnumerable ItemsSource
+        public new IEnumerable ItemsSource
         {
-            get { return (IEnumerable)GetValue(ItemsSourceProperty); }
+            get { return (IEnumerable)GetValue(ItemsSrcProperty); }
             set { SetValue(ItemsSourceProperty, value); }
         }
 
-        public Object SelectedItem
+        public new Object SelectedItem
         {
-            get { return GetValue(SelectedItemProperty); }
+            get { return GetValue(SelectedItemProp); }
             set
             {
                 if (this.SelectedItem != value)

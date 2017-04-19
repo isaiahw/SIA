@@ -40,7 +40,6 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Android.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\mscorlib.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Core.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Data.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.EnterpriseServices.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IO.Compression.dll
@@ -84,12 +83,4 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.Prim
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Data.Tds.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Transactions.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Primitives.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IdentityModel.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XmlSerializer.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.EventBasedAsync.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Http.dll
