@@ -1,10 +1,5 @@
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Properties.Resources.resources
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csproj.GenerateResource.Cache
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.BlankPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MainPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MasterPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.ShipmentPageOri.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Login.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Windows.Forms.dll
+D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.dll
@@ -41,7 +36,6 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Security.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.DirectoryServices.Protocols.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Microsoft.Build.Tasks.v4.0.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.ServiceProcess.dll
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Windows.Forms.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Web.RegularExpressions.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Transactions.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Runtime.Remoting.dll
@@ -51,7 +45,6 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Runtime.Serialization.Formatters.Soa
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Accessibility.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Xaml.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Configuration.Install.dll
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.Interface.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Microsoft.Identity.Client.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Newtonsoft.Json.xml
@@ -100,9 +93,16 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Xaml.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Configuration.Install.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.EnterpriseServices.Wrapper.dll
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csprojResolveAssemblyReference.cache
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Properties.Resources.resources
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csproj.GenerateResource.Cache
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.BlankPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MainPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MasterPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.ShipmentPageOri.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Login.xaml.g.cs
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.pdb
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csprojResolveAssemblyReference.cache
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb

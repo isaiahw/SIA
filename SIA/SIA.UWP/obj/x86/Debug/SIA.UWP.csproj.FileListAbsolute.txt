@@ -1,14 +1,3 @@
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.csprojResolveAssemblyReference.cache
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.i.cs
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.cs
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.g.i.cs
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.g.cs
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.xaml
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.xaml
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.xbf
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.xbf
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\XamlSaveStateFile.xml
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\App.xbf
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\MainPage.xbf
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.xr.xml
@@ -62,6 +51,7 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Text.Encoding.Extensions.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Threading.Tasks.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Threading.Timer.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Console.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Diagnostics.Debug.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.IO.FileSystem.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Net.Primitives.dll
@@ -118,6 +108,7 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Reflection.Emit.ILGeneration
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Reflection.Emit.Lightweight.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Reflection.Metadata.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Reflection.TypeExtensions.dll
+D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Runtime.Numerics.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
@@ -171,6 +162,17 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUnive
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.pdb
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.csprojResolveAssemblyReference.cache
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.i.cs
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.g.cs
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.g.i.cs
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.g.cs
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.xaml
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.xaml
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\App.xbf
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\MainPage.xbf
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\XamlSaveStateFile.xml
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.exe
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.pdb
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\ResourceHandlingTask.state
@@ -179,6 +181,7 @@ D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.Microsoft.VisualBasic.S
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Collections.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.IO.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Console.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Diagnostics.Debug.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.IO.FileSystem.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Net.Primitives.SR.resw
@@ -218,6 +221,7 @@ D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Private.DataCont
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.Numerics.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.Serialization.Formatters.SR.resw
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
@@ -262,7 +266,3 @@ D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\ZXingNetMobile.pri.xml
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.pri.xml
 D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\ProjectArchitectures.txt
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Console.dll
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Console.SR.resw
-D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
