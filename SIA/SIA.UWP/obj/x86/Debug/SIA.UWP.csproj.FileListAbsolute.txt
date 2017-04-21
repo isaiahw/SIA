@@ -15,8 +15,6 @@ D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Acr.UserDialogs.pdb
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Coding4Fun.Toolkit.Controls.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Coding4Fun.Toolkit.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Microsoft.CSharp.dll
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Microsoft.Identity.Client.Platform.dll
-D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Microsoft.Identity.Client.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
 D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll

@@ -63,9 +63,6 @@ namespace SIA.Droid
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::SIA.Droid.Resource.Styleable.ProgressWheel_ahText;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::SIA.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::SIA.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
-			global::Microsoft.Identity.Client.Resource.Id.agentWebView = global::SIA.Droid.Resource.Id.agentWebView;
-			global::Microsoft.Identity.Client.Resource.Layout.WebAuthenticationBroker = global::SIA.Droid.Resource.Layout.WebAuthenticationBroker;
-			global::Microsoft.Identity.Client.Resource.String.ApplicationName = global::SIA.Droid.Resource.String.ApplicationName;
 			global::Plugin.Vibrate.Resource.String.ApplicationName = global::SIA.Droid.Resource.String.ApplicationName;
 			global::Plugin.Vibrate.Resource.String.Hello = global::SIA.Droid.Resource.String.Hello;
 			global::Splat.Resource.String.library_name = global::SIA.Droid.Resource.String.library_name;
@@ -2373,9 +2370,6 @@ namespace SIA.Droid
 			// aapt resource value: 0x7f07003d
 			public const int activity_chooser_view_content = 2131165245;
 			
-			// aapt resource value: 0x7f07009c
-			public const int agentWebView = 2131165340;
-			
 			// aapt resource value: 0x7f070049
 			public const int alertTitle = 2131165257;
 			
@@ -2418,8 +2412,8 @@ namespace SIA.Droid
 			// aapt resource value: 0x7f07001f
 			public const int collapseActionView = 2131165215;
 			
-			// aapt resource value: 0x7f07009d
-			public const int contentFrame = 2131165341;
+			// aapt resource value: 0x7f07009c
+			public const int contentFrame = 2131165340;
 			
 			// aapt resource value: 0x7f07004a
 			public const int contentPanel = 2131165258;
@@ -3049,13 +3043,10 @@ namespace SIA.Droid
 			public const int support_simple_spinner_dropdown_item = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int WebAuthenticationBroker = 2130903098;
+			public const int zxingscanneractivitylayout = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int zxingscanneractivitylayout = 2130903099;
-			
-			// aapt resource value: 0x7f03003c
-			public const int zxingscannerfragmentlayout = 2130903100;
+			public const int zxingscannerfragmentlayout = 2130903099;
 			
 			static Layout()
 			{

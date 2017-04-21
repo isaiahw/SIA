@@ -43,12 +43,6 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Identity.Client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.Platform.dll">
-      <PackagePath>Microsoft.Identity.Client.Platform.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Identity.Client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.dll">
-      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Microsoft.Net.Http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>

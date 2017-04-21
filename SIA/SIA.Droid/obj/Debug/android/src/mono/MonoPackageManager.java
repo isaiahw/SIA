@@ -105,8 +105,6 @@ class MonoPackageManager_Resources {
 		"AndHUD.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
-		"Microsoft.Identity.Client.dll",
-		"Microsoft.Identity.Client.Platform.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",

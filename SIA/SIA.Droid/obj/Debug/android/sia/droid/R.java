@@ -2698,7 +2698,6 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f070056;
         public static final int action_mode_close_button=0x7f07003c;
         public static final int activity_chooser_view_content=0x7f07003d;
-        public static final int agentWebView=0x7f07009c;
         public static final int alertTitle=0x7f070049;
         public static final int always=0x7f07001e;
         public static final int beginning=0x7f07001b;
@@ -2713,7 +2712,7 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f070033;
         public static final int clip_vertical=0x7f070034;
         public static final int collapseActionView=0x7f07001f;
-        public static final int contentFrame=0x7f07009d;
+        public static final int contentFrame=0x7f07009c;
         public static final int contentPanel=0x7f07004a;
         public static final int custom=0x7f070050;
         public static final int customPanel=0x7f07004f;
@@ -2916,9 +2915,8 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f030037;
         public static final int select_dialog_singlechoice_material=0x7f030038;
         public static final int support_simple_spinner_dropdown_item=0x7f030039;
-        public static final int webauthenticationbroker=0x7f03003a;
-        public static final int zxingscanneractivitylayout=0x7f03003b;
-        public static final int zxingscannerfragmentlayout=0x7f03003c;
+        public static final int zxingscanneractivitylayout=0x7f03003a;
+        public static final int zxingscannerfragmentlayout=0x7f03003b;
     }
     public static final class string {
         public static final int ApplicationName=0x7f080028;

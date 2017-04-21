@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 using Plugin.Connectivity;
-using Microsoft.Identity.Client;
+
 using Acr.UserDialogs;
 using System.Threading.Tasks;
 using System.Net.Http;
@@ -15,7 +15,7 @@ namespace SIA
 {
     public class App : Application
     {
-        public static PublicClientApplication ClientApplication { get; set; }
+        
         public static string[] Scopes = { "User.Read" };
         public static LoginResult Credential { get; set; }
         private static bool _isConnected = false;
@@ -30,7 +30,7 @@ namespace SIA
         {
             // The root page of your application
 
-            ClientApplication = new PublicClientApplication("59593ad4-7f4a-4c77-81a3-0439159d7da5");
+            
             //var content = new Login();
             
             MainPage = new MainPage();
