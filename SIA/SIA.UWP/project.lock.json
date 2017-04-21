@@ -73,17 +73,6 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        }
-      },
       "Microsoft.Net.Http/2.2.29": {
         "type": "package",
         "dependencies": {
@@ -2688,17 +2677,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.Net.Http/2.2.29": {
@@ -5335,17 +5313,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.Net.Http/2.2.29": {
@@ -8023,17 +7990,6 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        }
-      },
       "Microsoft.Net.Http/2.2.29": {
         "type": "package",
         "dependencies": {
@@ -10677,17 +10633,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.Net.Http/2.2.29": {
@@ -13374,17 +13319,6 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        }
-      },
       "Microsoft.Net.Http/2.2.29": {
         "type": "package",
         "dependencies": {
@@ -16028,17 +15962,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Identity.Client/1.0.304142221-alpha": {
-        "type": "package",
-        "compile": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {},
-          "lib/netcore45/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.Net.Http/2.2.29": {
@@ -18885,37 +18808,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "Microsoft.Identity.Client/1.0.304142221-alpha": {
-      "sha512": "T4kd4b5IFxWDOaGdYi5ipnj6kSAV3Ym4dj6lxVmWQ6lMoAdOBgiMT4K+LAG/G+14GFK2pbO75XgwJbgT3ol6eg==",
-      "type": "package",
-      "path": "microsoft.identity.client/1.0.304142221-alpha",
-      "files": [
-        "Microsoft.Identity.Client.1.0.304142221-alpha.nupkg.sha512",
-        "Microsoft.Identity.Client.nuspec",
-        "lib/MonoAndroid10/Microsoft.Identity.Client.Platform.dll",
-        "lib/MonoAndroid10/Microsoft.Identity.Client.Platform.xml",
-        "lib/MonoAndroid10/Microsoft.Identity.Client.dll",
-        "lib/MonoAndroid10/Microsoft.Identity.Client.xml",
-        "lib/Xamarin.iOS10/Microsoft.Identity.Client.Platform.dll",
-        "lib/Xamarin.iOS10/Microsoft.Identity.Client.Platform.xml",
-        "lib/Xamarin.iOS10/Microsoft.Identity.Client.dll",
-        "lib/Xamarin.iOS10/Microsoft.Identity.Client.xml",
-        "lib/dnxcore50/Microsoft.Identity.Client.Platform.dll",
-        "lib/dnxcore50/Microsoft.Identity.Client.Platform.xml",
-        "lib/dnxcore50/Microsoft.Identity.Client.dll",
-        "lib/dnxcore50/Microsoft.Identity.Client.xml",
-        "lib/net45/Microsoft.Identity.Client.Platform.dll",
-        "lib/net45/Microsoft.Identity.Client.Platform.xml",
-        "lib/net45/Microsoft.Identity.Client.dll",
-        "lib/net45/Microsoft.Identity.Client.xml",
-        "lib/netcore45/Microsoft.Identity.Client.Platform.dll",
-        "lib/netcore45/Microsoft.Identity.Client.Platform.xml",
-        "lib/netcore45/Microsoft.Identity.Client.dll",
-        "lib/netcore45/Microsoft.Identity.Client.xml",
-        "lib/portable-net45+win/Microsoft.Identity.Client.dll",
-        "lib/portable-net45+win/Microsoft.Identity.Client.xml"
       ]
     },
     "Microsoft.Net.Http/2.2.29": {
@@ -28056,7 +27948,6 @@
       "Acr.UserDialogs >= 6.3.10",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Build >= 1.0.21",
-      "Microsoft.Identity.Client >= 1.0.304142221-alpha",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.2",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.2",
@@ -28095,7 +27986,6 @@
       "Acr.UserDialogs": "6.3.10",
       "Microsoft.Bcl": "1.1.10",
       "Microsoft.Bcl.Build": "1.0.21",
-      "Microsoft.Identity.Client": "1.0.304142221-alpha",
       "Microsoft.Net.Http": "2.2.29",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.2",
       "Newtonsoft.Json": "10.0.2",
@@ -28105,14 +27995,8 @@
       "Xam.Plugins.Messaging": "4.0.0",
       "Xam.Plugins.Vibrate": "2.0.0",
       "Xamarin.Forms": "2.3.4.231",
-      "ZXing.Net.Mobile": {
-        "target": "Package",
-        "version": "[2.2.9, )"
-      },
-      "ZXing.Net.Mobile.Forms": {
-        "target": "Package",
-        "version": "[2.2.9, )"
-      }
+      "ZXing.Net.Mobile": "2.2.9",
+      "ZXing.Net.Mobile.Forms": "2.2.9"
     },
     "frameworks": {
       "uap10.0": {}

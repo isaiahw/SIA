@@ -111,7 +111,7 @@ namespace SIA
 
             try
             {
-                var Url = new Uri("http://172.11.66.181/xampp/SIAGetReleasedJOR.php");
+                var Url = new Uri("http://172.11.66.181/xampp/SIAGetReleasedJOR2.php");
 
                 var client = new HttpClient();
 
