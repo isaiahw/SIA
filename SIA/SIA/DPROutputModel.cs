@@ -86,11 +86,7 @@ namespace SIA
         public async Task GetData(string table, string inBarcode)
         {
             
-            //SIAFGLabelService.FGLabel_PortClient x = new SIAFGLabelService.FGLabel_PortClient();
-            //SIAFGLabelService.Read_Result y = new SIAFGLabelService.Read_Result();
-            //x.ReadAsync(Convert.ToInt32(inBarcode.Substring(inBarcode.Length - 8, 8).Trim()));            
-            //x.ReadByRecIdAsync(inBarcode.Substring(inBarcode.Length - 8, 8).Trim());
-            //lotNumber = y.FGLabel.Lot_No;
+            
             
             
 
@@ -312,7 +308,8 @@ namespace SIA
         {
             try
             {
-                var Url = "http://172.11.66.181/xampp/siagetfglotno.php?table="+ barcodeRef + "&id="+entryRef;
+                //var Url = "http://172.11.66.181/xampp/siagetfglotno.php?table="+ barcodeRef + "&id="+entryRef; //using sqlite data
+                var Url = "http://172.11.66.181/xampp/siagetitemlotno.php?table=" + barcodeRef + "&id=" + entryRef; //using sqlite & SQLServer data
                 var client = new HttpClient();
 
                 var json = await client.GetAsync(Url);
