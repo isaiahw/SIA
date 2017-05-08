@@ -10,6 +10,11 @@
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Messaging\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Vibrate\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
@@ -39,6 +44,11 @@
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Messaging.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Plugin.Vibrate.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Splat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>

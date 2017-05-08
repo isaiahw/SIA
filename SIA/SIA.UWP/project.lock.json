@@ -2,7 +2,7 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -2557,6 +2557,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -2608,7 +2615,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -5193,6 +5200,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -5244,7 +5258,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -7868,6 +7882,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -7919,7 +7940,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -10513,6 +10534,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -10564,7 +10592,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -13197,6 +13225,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -13248,7 +13283,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -15842,6 +15877,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -15893,7 +15935,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Acr.UserDialogs/6.3.10": {
+      "Acr.UserDialogs/6.4.1": {
         "type": "package",
         "dependencies": {
           "Coding4Fun.Toolkit.Controls": "[2.1.8, 3.0.0)",
@@ -18526,6 +18568,13 @@
           "lib/UAP10/Plugin.Vibrate.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.4": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
@@ -18578,12 +18627,12 @@
     }
   },
   "libraries": {
-    "Acr.UserDialogs/6.3.10": {
-      "sha512": "KOSYVT0BFEpPbp7p3QZQgRsXZ+jSvuvSMDck8YsB31xan8GMOtU57uh2B1MFOsi3dxL0TF8A1hplhbJgdLJEkQ==",
+    "Acr.UserDialogs/6.4.1": {
+      "sha512": "EJkYcv9rFfvr/be8o9tSkRUE/kREORk/eAk8JibAjH7HVV6+xzGLiVOxjz2ToR0Gx5WdATGOKSSSDqDIWH/MxA==",
       "type": "package",
-      "path": "acr.userdialogs/6.3.10",
+      "path": "acr.userdialogs/6.4.1",
       "files": [
-        "acr.userdialogs.6.3.10.nupkg.sha512",
+        "acr.userdialogs.6.4.1.nupkg.sha512",
         "acr.userdialogs.nuspec",
         "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll",
         "lib/MonoAndroid10/Acr.UserDialogs.Interface.pdb",
@@ -18595,9 +18644,9 @@
         "lib/Xamarin.iOS10/Acr.UserDialogs.dll",
         "lib/Xamarin.iOS10/Acr.UserDialogs.dll.mdb",
         "lib/Xamarin.iOS10/Acr.UserDialogs.pdb",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.dll",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.pdb",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.dll",
+        "lib/portable-net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.dll",
+        "lib/portable-net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.pdb",
+        "lib/portable-net45+wp8+win8+wpa81/Acr.UserDialogs.dll",
         "lib/uap10.0/Acr.UserDialogs.Interface.dll",
         "lib/uap10.0/Acr.UserDialogs.Interface.pdb",
         "lib/uap10.0/Acr.UserDialogs.dll",
@@ -27733,6 +27782,22 @@
         "lib/wpa81/Plugin.Vibrate.xml"
       ]
     },
+    "Xamarin.Build.Download/0.4.4": {
+      "sha512": "9mIlauSJ9wBBg5l9XKPAFvCMhmi+iDL6X3jMNr82c3oNg9yYH1oU+SMKciaekaw4gJZJ7x8QPf8r8zn0nr9qvw==",
+      "type": "package",
+      "path": "xamarin.build.download/0.4.4",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.4.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
     "Xamarin.Forms/2.3.4.231": {
       "sha512": "Tar4nHke8Rl0Mz2Y1MdNAMvo8wKc/wVVW2rN7loXMc+2R1ex3n/fzs7eD2F7gDw3TceGLQku52kyc5LuN8Hlgw==",
       "type": "package",
@@ -27944,7 +28009,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Acr.UserDialogs >= 6.3.10",
+      "Acr.UserDialogs >= 6.4.1",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Build >= 1.0.21",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
@@ -27955,6 +28020,7 @@
       "Xam.Plugins.Forms.Vibrate >= 2.0.0",
       "Xam.Plugins.Messaging >= 4.0.0",
       "Xam.Plugins.Vibrate >= 2.0.0",
+      "Xamarin.Build.Download >= 0.4.4",
       "Xamarin.Forms >= 2.3.4.231",
       "ZXing.Net.Mobile >= 2.2.9",
       "ZXing.Net.Mobile.Forms >= 2.2.9"
@@ -27982,11 +28048,11 @@
       }
     },
     "dependencies": {
-      "Acr.UserDialogs": "6.3.10",
+      "Acr.UserDialogs": "6.4.1",
       "Microsoft.Bcl": "1.1.10",
       "Microsoft.Bcl.Build": "1.0.21",
       "Microsoft.Net.Http": "2.2.29",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.3.3, )",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "Newtonsoft.Json": "10.0.2",
       "Splat": "1.6.2",
       "Xam.Plugin.Connectivity": "2.3.0",
@@ -27995,7 +28061,11 @@
       "Xam.Plugins.Vibrate": "2.0.0",
       "Xamarin.Forms": "2.3.4.231",
       "ZXing.Net.Mobile": "2.2.9",
-      "ZXing.Net.Mobile.Forms": "2.2.9"
+      "ZXing.Net.Mobile.Forms": "2.2.9",
+      "Xamarin.Build.Download": {
+        "target": "Package",
+        "version": "[0.4.4, )"
+      }
     },
     "frameworks": {
       "uap10.0": {}
