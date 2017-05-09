@@ -43,9 +43,11 @@
     </Compile>
     <Compile Include="Config.cs" />
     <Compile Include="DailyJOR.cs" />
+    <Compile Include="DailyJORScrap.cs" />
     <Compile Include="DailyJORDowntime.cs" />
     <Compile Include="DailyJORConsumption.cs" />
     <Compile Include="DailyJORRecord.cs" />
+    <Compile Include="DPRScrapModel.cs" />
     <Compile Include="DPRModel.cs" />
     <Compile Include="DPRConsumptionModel.cs" />
     <Compile Include="IPlatformSoundPlayer.cs" />
