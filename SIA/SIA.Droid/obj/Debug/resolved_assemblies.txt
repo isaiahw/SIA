@@ -17,19 +17,11 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Extens
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Primitives.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Annotations.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Compat.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Core.UI.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Core.Utils.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Fragment.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Media.Compat.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Transition.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.Palette.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
@@ -87,5 +79,4 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Primitives.
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Security.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll

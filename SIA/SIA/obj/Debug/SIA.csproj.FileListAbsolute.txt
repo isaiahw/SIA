@@ -1,5 +1,4 @@
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Windows.Forms.dll
-D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.dll
@@ -44,6 +43,7 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Runtime.Serialization.Formatters.Soa
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Accessibility.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Xaml.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Configuration.Install.dll
+D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.Deployment.dll
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Acr.UserDialogs.Interface.pdb
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Newtonsoft.Json.xml
 D:\VS Projects\SIA\SIA\SIA\bin\Debug\Plugin.Connectivity.pdb
@@ -101,4 +101,5 @@ D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.ShipmentPageOri.xaml.g.cs
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Login.xaml.g.cs
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.pdb
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csproj.CoreCompileInputs.cache
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll.mdb
+D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll.mdb
