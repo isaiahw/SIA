@@ -267,29 +267,29 @@ namespace SIA
                 }
             };
 
-            SaveScrap.Clicked += async (sender, e) =>
-            {
-                try
-                {
-                    var selectedItem = ScrapReason.SelectedItem as ReasonModel;
+            //SaveScrap.Clicked += async (sender, e) =>
+            //{
+            //    try
+            //    {
+            //        var selectedItem = ScrapReason.SelectedItem as ReasonModel;
                     
-                    //todo 09May2017
-                    var Url = new Uri("http://172.11.66.181/xampp/siaSaveDPRScrap.php?dprid=" + DPRidLbl.Text + "&downfrom=" + UnixDateTimeFormat(dateFrom.Date.Date.ToString("yyyy-MMM-dd"),timeFrom.Time.ToString()) + "&scrapQtyLbl=" + UnixDateTimeFormat(dateTo.Date.Date.ToString("yyyy-MMM-dd"),timeTo.Time.ToString()) + "&reasonid="+selectedItem.ID); 
+            //        //todo 09May2017
+            //        var Url = new Uri("http://172.11.66.181/xampp/siaSaveDPRScrap.php?dprid=" + DPRidLbl.Text + "&downfrom=" + UnixDateTimeFormat(dateFrom.Date.Date.ToString("yyyy-MMM-dd"),timeFrom.Time.ToString()) + "&scrapQtyLbl=" + UnixDateTimeFormat(dateTo.Date.Date.ToString("yyyy-MMM-dd"),timeTo.Time.ToString()) + "&reasonid="+selectedItem.ID); 
 
-                    var client = new HttpClient();
+            //        var client = new HttpClient();
 
-                    var json = await client.GetAsync(Url);
+            //        var json = await client.GetAsync(Url);
 
-                    json.EnsureSuccessStatusCode();
+            //        json.EnsureSuccessStatusCode();
 
-                    string contents = await json.Content.ReadAsStringAsync();
+            //        string contents = await json.Content.ReadAsStringAsync();
 
-                    await loadDPRScrap();
+            //        await loadDPRScrap();
 
-                }
-                catch (System.Exception ex) { var x = ex.ToString(); x = null; }
-                SCRLstView.ItemsSource = DPRScraps;
-            };
+            //    }
+            //    catch (System.Exception ex) { var x = ex.ToString(); x = null; }
+            //    SCRLstView.ItemsSource = DPRScraps;
+            //};
         }
 
         void listSelection(object sender, SelectedItemChangedEventArgs e)
