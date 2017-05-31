@@ -79,4 +79,5 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Primitives.
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Security.dll
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
