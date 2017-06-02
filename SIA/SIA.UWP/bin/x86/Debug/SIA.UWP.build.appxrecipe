@@ -457,8 +457,8 @@
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
       <PackagePath>SIA.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\contacts.png">
+      <PackagePath>contacts.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -486,6 +486,12 @@
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\swap.png">
+      <PackagePath>swap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.xr.xml">
       <PackagePath>SIA.UWP.xr.xml</PackagePath>

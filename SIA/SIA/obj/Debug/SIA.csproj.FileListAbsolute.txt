@@ -94,10 +94,10 @@ D:\VS Projects\SIA\SIA\SIA\bin\Debug\System.EnterpriseServices.Wrapper.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csprojResolveAssemblyReference.cache
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Properties.Resources.resources
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csproj.GenerateResource.Cache
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.BlankPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MainPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.MasterPage.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.ShipmentPageOri.xaml.g.cs
-D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.Login.xaml.g.cs
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.dll
 D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.pdb
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.View.BlankPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.View.MainPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.View.MasterPage.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.View.ShipmentPageOri.xaml.g.cs
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.View.Login.xaml.g.cs

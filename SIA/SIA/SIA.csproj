@@ -36,74 +36,71 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="BindablePicker.cs" />
-    <Compile Include="BlankPage.xaml.cs">
+    <Compile Include="Helper\BindablePicker.cs" />
+    <Compile Include="View\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Config.cs" />
-    <Compile Include="DailyJOR.cs" />
-    <Compile Include="DailyJORScrap.cs" />
-    <Compile Include="DailyJORDowntime.cs" />
-    <Compile Include="DailyJORConsumption.cs" />
-    <Compile Include="DailyJORRecord.cs" />
-    <Compile Include="DPRScrapModel.cs" />
-    <Compile Include="DPRModel.cs" />
-    <Compile Include="DPRConsumptionModel.cs" />
-    <Compile Include="IPlatformSoundPlayer.cs" />
-    <Compile Include="JSONModel.cs" />
-    <Compile Include="Login.xaml.cs">
+    <Compile Include="View\DailyJOR.cs" />
+    <Compile Include="View\DailyJORScrap.cs" />
+    <Compile Include="View\DailyJORDowntime.cs" />
+    <Compile Include="View\DailyJORConsumption.cs" />
+    <Compile Include="View\DailyJORRecord.cs" />
+    <Compile Include="Model\DPRScrapModel.cs" />
+    <Compile Include="Model\DPRModel.cs" />
+    <Compile Include="Model\DPRConsumptionModel.cs" />
+    <Compile Include="Helper\IPlatformSoundPlayer.cs" />
+    <Compile Include="Model\JSONModel.cs" />
+    <Compile Include="View\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DPRDowntimeModel.cs" />
-    <Compile Include="ReasonModel.cs" />
-    <Compile Include="ReleasedJORModel.cs" />
-    <Compile Include="MachineJORModel.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Model\DPRDowntimeModel.cs" />
+    <Compile Include="Model\ReasonModel.cs" />
+    <Compile Include="Model\ReleasedJORModel.cs" />
+    <Compile Include="Model\MachineJORModel.cs" />
+    <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MasterPage.xaml.cs">
+    <Compile Include="View\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MasterPageItem.cs" />
-    <Compile Include="ObservableObjects.cs" />
+    <Compile Include="Model\MasterPageItem.cs" />
+    <Compile Include="Helper\ObservableObjects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="DPROutputModel.cs" />
-    <Compile Include="ScannedItem.cs" />
-    <Compile Include="ScannedItemDetails.cs" />
-    <Compile Include="ShipmentPageOri.xaml.cs">
+    <Compile Include="Model\DPROutputModel.cs" />
+    <Compile Include="Model\ScannedItem.cs" />
+    <Compile Include="Model\ScannedItemDetails.cs" />
+    <Compile Include="View\ShipmentPageOri.xaml.cs">
       <DependentUpon>ShipmentPageOri.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ShipmentPage.cs" />
-    <Compile Include="ConsumptionPage.cs" />
-    <Compile Include="SoundPlayer.cs" />
-    <Compile Include="DailyJOROutput.cs" />
-    <Compile Include="TransferPage.cs" />
+    <Compile Include="View\ShipmentPage.cs" />
+    <Compile Include="View\ConsumptionPage.cs" />
+    <Compile Include="Helper\SoundPlayer.cs" />
+    <Compile Include="View\DailyJOROutput.cs" />
+    <Compile Include="View\TransferPage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
-    <None Include="packages - Copy.config" />
     <None Include="packages.config" />
     <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="BlankPage.xaml">
+    <EmbeddedResource Include="View\BlankPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
+    <EmbeddedResource Include="View\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MasterPage.xaml">
+    <EmbeddedResource Include="View\MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -113,7 +110,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ShipmentPageOri.xaml">
+    <EmbeddedResource Include="View\ShipmentPageOri.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -179,7 +176,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Login.xaml">
+    <EmbeddedResource Include="View\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
