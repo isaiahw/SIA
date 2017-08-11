@@ -11,7 +11,7 @@
 namespace SIA {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\VS Projects\\SIA\\SIA\\SIA\\View\\MasterPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA\\View\\MasterPage.xaml")]
     public partial class MasterPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

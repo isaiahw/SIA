@@ -27969,16 +27969,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\VS Projects\\SIA\\SIA\\SIA.UWP\\SIA.UWP.csproj",
+      "projectUniqueName": "D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA.UWP\\SIA.UWP.csproj",
       "projectName": "SIA.UWP",
-      "projectPath": "D:\\VS Projects\\SIA\\SIA\\SIA.UWP\\SIA.UWP.csproj",
-      "projectJsonPath": "D:\\VS Projects\\SIA\\SIA\\SIA.UWP\\project.json",
+      "projectPath": "D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA.UWP\\SIA.UWP.csproj",
+      "projectJsonPath": "D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\VS Projects\\SIA\\SIA\\SIA\\SIA.csproj": {
-              "projectPath": "D:\\VS Projects\\SIA\\SIA\\SIA\\SIA.csproj"
+            "D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA\\SIA.csproj": {
+              "projectPath": "D:\\VS Projects\\SIA Original 27Jul2017\\SIA\\SIA\\SIA.csproj"
             }
           }
         }
