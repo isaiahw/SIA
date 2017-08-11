@@ -34,13 +34,14 @@ namespace SIA
         private Func<Task> loadReleasedJOR;
 
         public DailyJOR()
-        {            
+        {
+            this.Title = "Daily Production Record Page";
             _dailyJORRecord = new DailyJORRecord() { Title = "JOR Record" };
             _dailyJOROutput = new DailyJOROutput() { Title = "JOR Output" };
             _dailyJORConsumption = new DailyJORConsumption() { Title = "JOR Consumption" };
             _dailyJORDowntime = new DailyJORDowntime() { Title = "JOR Downtime" };
-            
 
+            
             loadReleasedJOR += async delegate
             {
                 if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))

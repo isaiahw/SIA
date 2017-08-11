@@ -87,7 +87,7 @@ namespace SIA
 
         public DailyJORRecord()
         {
-
+            
             checkConnection += async delegate
             {
                 if (await CrossConnectivity.Current.IsRemoteReachable("172.11.66.181"))
