@@ -14,6 +14,7 @@ using Plugin.Connectivity;
 using System.Diagnostics;
 using System.Net.Http;
 using Acr.UserDialogs;
+using Newtonsoft.Json;
 
 namespace SIA
 {
@@ -63,10 +64,14 @@ namespace SIA
                 }
             });
 
+            
             loadDPROutput += async delegate
             {
                 //load dproutput into scanneditems
                 scannedItems.Clear();
+                
+                var parentTabbedPage = this.Parent as DailyJOR;
+                DPRIdLbl.Text = parentTabbedPage.DPRs.DPRid.ToString();
                 await DPROutput.GetDPROutput(DPRIdLbl.Text);
                 
 
@@ -522,9 +527,42 @@ namespace SIA
                 lblBarCodeRefNo.Text = parentTabbedPage.DPRs.DPRBarCodeRefno;
                 //parentTabbedPage.ReleasedJORs.TmpCollection();
                 lblMachineNo.Text = parentTabbedPage.MachineNo;
-                lblPostDate.Text = parentTabbedPage.PostDate.ToString();
+                lblPostDate.Text = parentTabbedPage.PostDate.ToString("yyyy-MMM-dd");
                 lblShift.Text = parentTabbedPage.Shift;
                 mstId.Text = "JOR"+parentTabbedPage.JORNumber.Substring(parentTabbedPage.JORNumber.Length-5,5) + "-" + parentTabbedPage.MachineNo + "-" + parentTabbedPage.PostDate.ToString("ddMMMyyyy") + "-" + parentTabbedPage.Shift;
+                //getdprid
+                Task.Run(async () =>
+                {
+                    try
+                    {
+                        var Url = new Uri("http://172.11.66.181/xampp/siaGetDPRid.php?jor=" + lblJORNo.Text + "&date=" + lblPostDate.Text + "&shift=" + lblShift.Text + "&machine=" + lblMachineNo.Text);
+
+                        var client = new HttpClient();
+
+                        var json = await client.GetAsync(Url);
+
+                        json.EnsureSuccessStatusCode();
+
+                        string contents = await json.Content.ReadAsStringAsync();
+                        if (contents != "\r\nEmpty")
+                        {
+                            List<DPRModel> tmpModel = await Task.Run(() => JsonConvert.DeserializeObject<List<DPRModel>>(contents));
+
+                            foreach (var i in tmpModel)
+                            {
+                                DPRIdLbl.Text = i.DPRid.ToString();
+                            }
+
+                        }
+                        else
+                        {
+                            lblJORNo.Text = "JOR Number not selected";
+                        }
+                    }
+                    catch (System.Exception ex) { var x = ex.ToString(); x = null; }
+                });
+
+                //getdprid
                 loadDPROutput();
                 lstView.ItemsSource = scannedItems;
             }

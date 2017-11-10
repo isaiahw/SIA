@@ -66,7 +66,7 @@ namespace SIA
                 json.EnsureSuccessStatusCode();
 
                 string contents = await json.Content.ReadAsStringAsync();
-                TmpCollection.Clear();
+                
                 if (contents.Trim() != "]") //not EMPTY RECORDS.
                 {
                     List<DPRConsumptionModel> tmpModel = await Task.Run(() => JsonConvert.DeserializeObject<List<DPRConsumptionModel>>(contents));
@@ -303,7 +303,7 @@ namespace SIA
         {
             try
             {
-                var Url = "http://172.11.66.181/xampp/siagetrmlotno.php?table="+ barcodeRef + "&id="+entryRef;
+                var Url = "http://172.11.66.181/xampp/siagetfglotno.php?table="+ barcodeRef + "&id="+entryRef;
                 var client = new HttpClient();
 
                 var json = await client.GetAsync(Url);

@@ -82,6 +82,7 @@ namespace SIA
         private Boolean isConnected = false;
         private Func<Task> checkConnection;
         private string lastInsertID;
+        public DailyJOR parentTabbedPage;
 
         //private ObservableCollection<DPRModel> _tmpCollection;
 
@@ -198,6 +199,7 @@ namespace SIA
             LoadJORBtn.Clicked += async (sender, e) => {
                 var tabbedPage = this.Parent as DailyJOR;
 
+                
                 tabbedPage.JORNumber = JORNo.Text;
                 tabbedPage.MachineNo = MachineNo.Text;
                 tabbedPage.PostDate = Date.Date;
