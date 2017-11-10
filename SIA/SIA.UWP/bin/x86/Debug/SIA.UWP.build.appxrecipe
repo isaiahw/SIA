@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3a535215-288c-4f5d-b363-a3a8d295c1a7</PackageIdentityName>
     <PackageIdentityPublisher>CN=isaiah</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.exe">
       <PackagePath>entrypoint\SIA.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\Acr.UserDialogs\6.3.1\lib\uap10.0\Acr.UserDialogs.Interface.dll">
@@ -454,46 +454,46 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile.Forms\2.2.9\lib\UAP10\ZXing.Net.Mobile.Forms.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA\bin\Debug\SIA.dll">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA\bin\Debug\SIA.dll">
       <PackagePath>SIA.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\contacts.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\contacts.png">
       <PackagePath>contacts.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\swap.png">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\swap.png">
       <PackagePath>swap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\SIA.UWP.xr.xml">
       <PackagePath>SIA.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -532,11 +532,11 @@
     <AppxPackagedFile Include="C:\Users\isaiah\.nuget\packages\ZXing.Net.Mobile\2.2.9\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
       <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\bin\x86\Debug\Core\SIA.UWP.exe">
+    <AppxPackagedFile Include="D:\VS Projects\SIA\SIA\SIA.UWP\bin\x86\Debug\Core\SIA.UWP.exe">
       <PackagePath>SIA.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

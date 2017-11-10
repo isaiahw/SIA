@@ -1,83 +1,83 @@
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\SIA.Droid.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\AndHUD.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\FastAndroidCamera.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\FormsViewGroup.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.Abstractions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.Abstractions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Splat.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Extensions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Primitives.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.ObjectModel.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Core.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.Android.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\zxing.portable.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\ZXingNetMobile.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Java.Interop.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Android.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\mscorlib.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Core.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.EnterpriseServices.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.IO.Compression.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\SIA.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.IO.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Numerics.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Numerics.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XmlDocument.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Globalization.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Linq.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Threading.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.Primitives.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Security.dll
-D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\SIA.Droid.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\AndHUD.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\FastAndroidCamera.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.Abstractions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.Abstractions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Splat.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Extensions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ObjectModel.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Core.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.Android.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\zxing.portable.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\ZXingNetMobile.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Java.Interop.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Android.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\mscorlib.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Core.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.EnterpriseServices.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IO.Compression.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Http.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\SIA.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.IO.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Numerics.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Numerics.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XmlDocument.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Globalization.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Linq.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Threading.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Reflection.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.ComponentModel.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.CSharp.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Mono.Security.dll
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
