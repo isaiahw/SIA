@@ -14,22 +14,22 @@ namespace SIA
 {
     public class DailyJORScrap : ContentPage
     {        
-        public Label Lbl1 = new Label { Text = "JOR No:", TextColor = Color.Aqua };
-        public Label Lbl2 = new Label { Text = "DPR Date:", TextColor = Color.Aqua };
-        public Label Lbl3 = new Label { Text = "DPR Shift:", TextColor = Color.Aqua };
-        public Label Lbl4 = new Label { Text = "DPR Machine:", TextColor = Color.Aqua };
-        public Label lbl5 = new Label { Text = "Scrap Qty:", TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };        
-        public Label lbl7 = new Label { Text = "Reason:", TextColor = Color.Aqua};
+        public Xamarin.Forms.Label Lbl1 = new Xamarin.Forms.Label { Text = "JOR No:", TextColor = Color.Aqua };
+        public Xamarin.Forms.Label Lbl2 = new Xamarin.Forms.Label { Text = "DPR Date:", TextColor = Color.Aqua };
+        public Xamarin.Forms.Label Lbl3 = new Xamarin.Forms.Label { Text = "DPR Shift:", TextColor = Color.Aqua };
+        public Xamarin.Forms.Label Lbl4 = new Xamarin.Forms.Label { Text = "DPR Machine:", TextColor = Color.Aqua };
+        public Xamarin.Forms.Label lbl5 = new Xamarin.Forms.Label { Text = "Scrap Qty:", TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };        
+        public Xamarin.Forms.Label lbl7 = new Xamarin.Forms.Label { Text = "Reason:", TextColor = Color.Aqua};
 
         public ObservableCollection<DPRScrapModel> DPRScraps = new ObservableCollection<DPRScrapModel>();
         public DPRScrapModel DPRScrap = new DPRScrapModel();
 
-        public Label lblTotalHr = new Label();
-        public Label lblJORNo = new Label();
-        public Label lblMachineNo = new Label();
-        public Label lblPostDate = new Label();
-        public Label lblShift = new Label();
-        public Label DPRidLbl = new Label();
+        public Xamarin.Forms.Label lblTotalHr = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label lblJORNo = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label lblMachineNo = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label lblPostDate = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label lblShift = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label DPRidLbl = new Xamarin.Forms.Label();
         public Entry scrQty = new Entry();
         private ObservableCollection<ReasonModel> ScrReasons = new ObservableCollection<ReasonModel>();
         public Button delSelectedBtn = new Button { Text = "Delete Selected Items" };
@@ -79,9 +79,9 @@ namespace SIA
 
                 //begin trying custom cell
                 var parentLayout = new StackLayout();
-                var delSwitch = new Switch();
+                var delSwitch = new Xamarin.Forms.Switch();
                 delSwitch.HorizontalOptions = LayoutOptions.End;
-                delSwitch.SetBinding(Switch.IsToggledProperty, "IsDelete");
+                delSwitch.SetBinding(Xamarin.Forms.Switch.IsToggledProperty, "IsDelete");
 
                 var gridLayout = new Grid
                 {
@@ -103,36 +103,36 @@ namespace SIA
                     }
                 };
 
-                var downfromLbl = new Label { Text = "Down From", TextColor = Color.Aqua };
-                var downtoLbl = new Label { Text = "Scrap Qty", TextColor = Color.Aqua };
-                var reasonIdLbl = new Label { Text = "Reason", TextColor = Color.Aqua };
-                var ScrapIDLbl = new Label { Text = "" };
+                var downfromLbl = new Xamarin.Forms.Label { Text = "Down From", TextColor = Color.Aqua };
+                var downtoLbl = new Xamarin.Forms.Label { Text = "Scrap Qty", TextColor = Color.Aqua };
+                var reasonIdLbl = new Xamarin.Forms.Label { Text = "Reason", TextColor = Color.Aqua };
+                var ScrapIDLbl = new Xamarin.Forms.Label { Text = "" };
 
-                var ScrapID = new Label();
-                ScrapID.SetBinding(Label.TextProperty, "DailyScrapID");
+                var ScrapID = new Xamarin.Forms.Label();
+                ScrapID.SetBinding(Xamarin.Forms.Label.TextProperty, "DailyScrapID");
                 ScrapID.FontSize = 13;
                 //DTID.FontAttributes = FontAttributes.Bold;
                 ScrapID.HorizontalOptions = LayoutOptions.FillAndExpand;
                 ScrapID.Margin = new Thickness(0);
                 ScrapID.VerticalOptions = LayoutOptions.Center;                
 
-                var scrapQtyLbl = new Label();
-                scrapQtyLbl.SetBinding(Label.TextProperty, "ScrapQty");
+                var scrapQtyLbl = new Xamarin.Forms.Label();
+                scrapQtyLbl.SetBinding(Xamarin.Forms.Label.TextProperty, "ScrapQty");
                 scrapQtyLbl.FontSize = 13;
                 //scrapQtyLbl.FontAttributes = FontAttributes.Bold;
                 scrapQtyLbl.HorizontalOptions = LayoutOptions.FillAndExpand;
                 scrapQtyLbl.Margin = new Thickness(0);
                 scrapQtyLbl.VerticalOptions = LayoutOptions.Center;
 
-                var reasonid = new Label();
-                reasonid.SetBinding(Label.TextProperty, "ReasonDesc");
+                var reasonid = new Xamarin.Forms.Label();
+                reasonid.SetBinding(Xamarin.Forms.Label.TextProperty, "ReasonDesc");
                 reasonid.FontSize = 13;
                 //reasonid.FontAttributes = FontAttributes.Bold;
                 reasonid.HorizontalOptions = LayoutOptions.FillAndExpand;
                 reasonid.Margin = new Thickness(0);
                 reasonid.VerticalOptions = LayoutOptions.Center;
 
-                var reasonDesc = new Label();
+                var reasonDesc = new Xamarin.Forms.Label();
                 //status.SetBinding(Label.TextProperty, "status");
                 //status.FontSize = 13;
                 //status.FontAttributes = FontAttributes.Bold;

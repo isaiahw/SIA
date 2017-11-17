@@ -74,9 +74,9 @@ namespace SIA
 
                   //begin trying custom cell
                   var parentLayout = new StackLayout();
-                  var delSwitch = new Switch();
+                  var delSwitch = new Xamarin.Forms.Switch();
                   delSwitch.HorizontalOptions = LayoutOptions.End;
-                  delSwitch.SetBinding(Switch.IsToggledProperty, "isDeleteScan");
+                  delSwitch.SetBinding(Xamarin.Forms.Switch.IsToggledProperty, "isDeleteScan");
 
                   var gridLayout = new Grid
                   {
@@ -100,8 +100,8 @@ namespace SIA
 
                   
 
-                  var description = new Label();
-                  description.SetBinding(Label.TextProperty, "description");                  
+                  var description = new Xamarin.Forms.Label();
+                  description.SetBinding(Xamarin.Forms.Label.TextProperty, "description");                  
                   description.FontSize = 13;
                   description.FontAttributes = FontAttributes.Bold;                                    
                   description.HorizontalOptions = LayoutOptions.FillAndExpand;
@@ -109,21 +109,21 @@ namespace SIA
                   description.VerticalOptions = LayoutOptions.Center;
                   //description.BackgroundColor = Color.Pink;
 
-                  var loc = new Label();
-                  loc.SetBinding(Label.TextProperty, "loc");
+                  var loc = new Xamarin.Forms.Label();
+                  loc.SetBinding(Xamarin.Forms.Label.TextProperty, "loc");
                   loc.FontSize = 10;
                   loc.Margin = new Thickness(0);
                   loc.VerticalOptions = LayoutOptions.Center;
                                    
-                  var lotNumber = new Label();
-                  lotNumber.SetBinding(Label.TextProperty, "lotNumber");                  
+                  var lotNumber = new Xamarin.Forms.Label();
+                  lotNumber.SetBinding(Xamarin.Forms.Label.TextProperty, "lotNumber");                  
                   lotNumber.FontSize = 10;
                   lotNumber.Margin = new Thickness(0);
                   lotNumber.VerticalOptions = LayoutOptions.Center;
                   //lotNumber.BackgroundColor = Color.Aqua;
 
-                  var status = new Label();
-                  status.SetBinding(Label.TextProperty, "status");
+                  var status = new Xamarin.Forms.Label();
+                  status.SetBinding(Xamarin.Forms.Label.TextProperty, "status");
                   status.FontSize = 13;
                   status.FontAttributes = FontAttributes.Bold;
                   status.HorizontalOptions = LayoutOptions.FillAndExpand;
@@ -132,8 +132,8 @@ namespace SIA
                   status.HorizontalTextAlignment = TextAlignment.End;
                   //status.BackgroundColor = Color.Aqua;
 
-                  var remainingQty = new Label();
-                  remainingQty.SetBinding(Label.TextProperty, "remainingQty");
+                  var remainingQty = new Xamarin.Forms.Label();
+                  remainingQty.SetBinding(Xamarin.Forms.Label.TextProperty, "remainingQty");
                   remainingQty.HorizontalOptions = LayoutOptions.FillAndExpand;
                   remainingQty.HorizontalTextAlignment = TextAlignment.End;
                   remainingQty.FontSize = 10;

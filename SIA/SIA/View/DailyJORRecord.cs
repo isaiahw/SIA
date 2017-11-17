@@ -65,16 +65,16 @@ namespace SIA
         public Entry QtyTakeOver = new Entry { Placeholder = "Quantity Takeover", Keyboard = Keyboard.Numeric };
         public Entry MachineNo = new Entry { Placeholder = "Machine Number", HorizontalOptions = LayoutOptions.FillAndExpand };        
         public Picker Shift = new Picker { Title = "Shift", HorizontalOptions = LayoutOptions.FillAndExpand };
-        public Label JORDescLbl = new Label { TextColor = Color.Aqua };
-        public Label DPRidLbl = new Label();
-        public Label DateLbl = new Label { TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };
-        public Label ShiftLbl = new Label { TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };
-        public Label OperatorNameLbl = new Label { TextColor = Color.Aqua };
-        public Label OperatorGroupLbl = new Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label JORDescLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label DPRidLbl = new Xamarin.Forms.Label();
+        public Xamarin.Forms.Label DateLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };
+        public Xamarin.Forms.Label ShiftLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua, VerticalOptions = LayoutOptions.CenterAndExpand };
+        public Xamarin.Forms.Label OperatorNameLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label OperatorGroupLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
         public DatePicker Date = new DatePicker { HorizontalOptions = LayoutOptions.FillAndExpand };
-        public Label QtyScrapLbl = new Label { TextColor = Color.Aqua };
-        public Label QtyHOLbl = new Label { TextColor = Color.Aqua };
-        public Label QtyTOLbl = new Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label QtyScrapLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label QtyHOLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
+        public Xamarin.Forms.Label QtyTOLbl = new Xamarin.Forms.Label { TextColor = Color.Aqua };
 
         public Entry Operator = new Entry { Placeholder = "Operator ID", HorizontalOptions = LayoutOptions.FillAndExpand };
         public Entry Password = new Entry { Placeholder = "", IsPassword = true, HorizontalOptions = LayoutOptions.FillAndExpand };
