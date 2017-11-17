@@ -182,3 +182,5 @@ D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.iOS\obj\iPhone\Debug\SIA.iOS.cspro
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.iOS\obj\iPhone\Debug\SIA.iOS.csproj.SIAiOS.exe.config
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.iOS\obj\iPhone\Debug\SIAiOS.exe
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.iOS\obj\iPhone\Debug\SIAiOS.pdb
+D:\VS Projects\SIA\SIA\SIA.iOS\bin\iPhone\Debug\SIA.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.iOS\obj\iPhone\Debug\SIA.iOS.csproj.CoreCompileInputs.cache

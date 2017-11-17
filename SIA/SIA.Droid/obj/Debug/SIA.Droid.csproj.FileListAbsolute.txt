@@ -220,3 +220,4 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Splat.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.csproj.CoreCompileInputs.cache

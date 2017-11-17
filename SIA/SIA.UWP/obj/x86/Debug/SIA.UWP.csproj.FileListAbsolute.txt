@@ -530,3 +530,4 @@ D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\obj\x86\Debug\Xamarin.Forms.Pl
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\obj\x86\Debug\ZXingNetMobile.pri.xml
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\obj\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.pri.xml
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\VS Projects\SIA\SIA\SIA.UWP\obj\x86\Debug\SIA.UWP.csproj.CoreCompileInputs.cache

@@ -204,3 +204,4 @@ D:\VS Projects\SIA Original 27Jul2017\SIA\SIA\obj\Debug\SIA.View.ShipmentPageOri
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA\obj\Debug\SIA.View.Login.xaml.g.cs
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA\obj\Debug\SIA.dll
 D:\VS Projects\SIA Original 27Jul2017\SIA\SIA\obj\Debug\SIA.pdb
+D:\VS Projects\SIA\SIA\SIA\obj\Debug\SIA.csproj.CoreCompileInputs.cache
