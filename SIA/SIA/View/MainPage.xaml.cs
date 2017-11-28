@@ -23,20 +23,15 @@ namespace SIA
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            //var item = e.SelectedItem as MasterPageItem;
-            //if (item != null)
-            //{
-            //    Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
-            //    masterPage.ListView.SelectedItem = null;
-            //    IsPresented = false;
-            //}
-
-            if (e.SelectedItem is MasterPageItem item)
+            var item = e.SelectedItem as MasterPageItem;
+            if (item != null)
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
                 masterPage.ListView.SelectedItem = null;
                 IsPresented = false;
             }
+
+
         }
     }
 }

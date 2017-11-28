@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIA.Droid", "SIA\SIA.Droid\SIA.Droid.csproj", "{E631DFE6-D303-44D9-A6FB-23E886FB6A74}"
 EndProject
@@ -127,7 +127,6 @@ Global
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.AppStore|x64.ActiveCfg = AppStore|iPhone
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.AppStore|x86.ActiveCfg = AppStore|iPhone
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{80633D36-5A4B-46F6-9FAD-B3EA4C7CB6F5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -256,5 +255,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7AB9D8D-F7DE-4473-A401-41D969E193C8}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars>obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar;D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
+  <Jars>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.Support.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\__library_projects__\Acr.UserDialogs\library_project_imports\res</ResolvedResourceDirectory>
