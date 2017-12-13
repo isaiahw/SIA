@@ -221,3 +221,162 @@ D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Splat.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\VS Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.config
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.apk
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid-Signed.apk
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.Support.Android.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\AndHUD.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\FastAndroidCamera.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.Abstractions.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Splat.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Extensions.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Primitives.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\ZXing.Net.Mobile.Core.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\ZXing.Net.Mobile.Forms.Android.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\ZXing.Net.Mobile.Forms.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\zxing.portable.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\ZXingNetMobile.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.Support.Android.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.Support.Android.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Acr.UserDialogs.Interface.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\FastAndroidCamera.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\FormsViewGroup.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Newtonsoft.Json.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Connectivity.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.Abstractions.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.Abstractions.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Plugin.Vibrate.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Splat.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Extensions.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\System.Net.Http.Primitives.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.csprojResolveAssemblyReference.cache
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.csproj.CoreCompileInputs.cache
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.dll
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\SIA.Droid.pdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\bin\SIA.Droid.apk
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable\icon.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable-hdpi\icon.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable\contacts.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable\hamburger.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable\reminders.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\res\drawable\todo.png
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\R.cs.flag
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\uploadflags.txt
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.Support.Android.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Messaging.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.Abstractions.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Plugin.Vibrate.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\SIA.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\SIA.Droid.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Splat.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\C# Projects\SIA\SIA\SIA.Droid\bin\Debug\SIA.Droid.dll
+D:\C# Projects\SIA\SIA\SIA\bin\Debug\SIA.dll
+bin\Debug\SIA.dll.mdb
+bin\Debug\Microsoft.CSharp.pdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.IO.Compression.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\System.Numerics.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\SIA.Droid.dll.mdb
+obj\Debug\linksrc\Acr.Support.Android.dll.mdb
+obj\Debug\linksrc\Acr.UserDialogs.dll.mdb
+obj\Debug\linksrc\Acr.UserDialogs.Interface.dll.mdb
+obj\Debug\linksrc\FormsViewGroup.dll.mdb
+obj\Debug\linksrc\Plugin.Connectivity.Abstractions.dll.mdb
+obj\Debug\linksrc\Plugin.Connectivity.dll.mdb
+obj\Debug\linksrc\Plugin.Messaging.Abstractions.dll.mdb
+obj\Debug\linksrc\Plugin.Messaging.dll.mdb
+obj\Debug\linksrc\Plugin.Vibrate.Abstractions.dll.mdb
+obj\Debug\linksrc\Plugin.Vibrate.dll.mdb
+obj\Debug\linksrc\SIA.dll.mdb
+obj\Debug\linksrc\Splat.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Microsoft.CSharp.pdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.IO.Compression.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\System.Numerics.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb

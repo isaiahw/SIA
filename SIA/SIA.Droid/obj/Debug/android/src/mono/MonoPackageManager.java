@@ -120,10 +120,10 @@ class MonoPackageManager_Resources {
 		"Plugin.Messaging.dll",
 		"Plugin.Vibrate.Abstractions.dll",
 		"Plugin.Vibrate.dll",
+		"SIA.dll",
 		"Splat.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
-		"System.ObjectModel.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -141,7 +141,6 @@ class MonoPackageManager_Resources {
 		"ZXing.Net.Mobile.Forms.dll",
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
-		"SIA.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

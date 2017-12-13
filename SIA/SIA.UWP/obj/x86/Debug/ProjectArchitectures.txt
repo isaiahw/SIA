@@ -1,2 +1,2 @@
-D:\VS Projects\SIA\SIA\SIA.UWP\SIA.UWP.csproj;x86
-D:\VS Projects\SIA\SIA\SIA\SIA.csproj;neutral
+D:\C# Projects\SIA\SIA\SIA.UWP\SIA.UWP.csproj;x86
+D:\C# Projects\SIA\SIA\SIA\SIA.csproj;neutral
